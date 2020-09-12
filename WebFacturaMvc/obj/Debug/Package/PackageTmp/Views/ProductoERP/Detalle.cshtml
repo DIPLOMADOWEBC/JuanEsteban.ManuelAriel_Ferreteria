@@ -1,0 +1,61 @@
+﻿@model WebFacturaMvc.Models.Inventario
+
+@{
+    ViewBag.Title = "Detalle";
+}
+
+@{
+    if (Session["IsLog"] == null)
+    {
+        Response.Redirect("~/Auth/Index");
+    }
+
+
+}
+<ol class="breadcrumb">
+    <li><a href="~/">Productos</a></li>
+    <li class="active">@("Detalle")</li>
+
+</ol>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Información Detallada</div>
+    <div class="panel-body">
+        <dl class="dl-horizontal">
+            <dt>@Html.DisplayNameFor(model => model.CodigoFabricante)</dt>
+            <dd>@Html.DisplayFor(model => model.CodigoFabricante)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Codigo)</dt>
+            <dd>@Html.DisplayFor(model => model.Codigo)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Descripcion)</dt>
+            <dd>@Html.DisplayFor(model => model.Descripcion)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Costo)</dt>
+            <dd>@Html.DisplayFor(model => model.Costo)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Precio1)</dt>
+            <dd>@Html.DisplayFor(model => model.Precio1)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Precio1_Itbis)</dt>
+            <dd>@Html.DisplayFor(model => model.Precio1_Itbis)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Stock)</dt>
+            <dd>@Html.DisplayFor(model => model.Stock)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.CategoriaID)</dt>
+            <dd>@Html.DisplayFor(model => model.CategoriaID)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Categoria)</dt>
+            <dd>@Html.DisplayFor(model => model.Categoria)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.Tipo)</dt>
+            <dd>@Html.DisplayFor(model => model.Tipo)</dd>
+
+        </dl>
+    </div>
+    <div class="form-actions">
+        @Html.ActionLink("Regresar al Listado", "Index")
+    </div>
+</div>
+

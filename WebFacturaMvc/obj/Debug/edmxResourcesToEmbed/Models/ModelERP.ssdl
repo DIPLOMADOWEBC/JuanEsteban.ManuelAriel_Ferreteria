@@ -1,0 +1,1641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OpticaNewModelEntity.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AsAutomaticos">
+    <Key>
+      <PropertyRef Name="AsAutomaticosId" />
+    </Key>
+    <Property Name="AsAutomaticosId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="2000" />
+    <Property Name="CtaCodigo" Type="varchar" MaxLength="50" />
+    <Property Name="CtaDescripcion" Type="varchar" MaxLength="200" />
+    <Property Name="Debito" Type="bit" />
+    <Property Name="Credito" Type="bit" />
+    <Property Name="Transaccion" Type="varchar" MaxLength="100" />
+    <Property Name="FuenteId" Type="int" />
+    <Property Name="Operacion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AsientosContables">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="Referencia" Type="varchar" MaxLength="150" />
+    <Property Name="Comprobante" Type="varchar" MaxLength="50" />
+    <Property Name="TotalDebito" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="TotalCredito" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="FuenteID" Type="int" />
+    <Property Name="Eliminado" Type="bit" />
+  </EntityType>
+  <EntityType Name="AsientosDetalle">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AsientoId" Type="int" />
+    <Property Name="Cuenta" Type="varchar" MaxLength="50" />
+    <Property Name="Comentario" Type="varchar" MaxLength="120" />
+    <Property Name="Debito" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Credito" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Rnc" Type="varchar" MaxLength="20" />
+    <Property Name="DescripcionCta" Type="varchar" MaxLength="200" />
+    <Property Name="Eliminado" Type="bit" />
+  </EntityType>
+  <EntityType Name="Cajas">
+    <Key>
+      <PropertyRef Name="CajaID" />
+    </Key>
+    <Property Name="CajaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="100" />
+    <Property Name="Nota" Type="varchar(max)" />
+    <Property Name="Estado" Type="bit" />
+  </EntityType>
+  <EntityType Name="CatalogoDeCuenta">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NoCuenta" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="ClasificacionId" Type="int" Nullable="false" />
+    <Property Name="ContieneSubCuenta" Type="bit" />
+    <Property Name="FechaCreacion" Type="datetime" />
+    <Property Name="FechaInicio" Type="datetime" />
+    <Property Name="FechaFinal" Type="datetime" />
+    <Property Name="Activo" Type="bit" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Registro" Type="varchar" MaxLength="100" />
+    <Property Name="UsaRegistro" Type="bit" />
+    <Property Name="IdCuentaPadre" Type="int" />
+    <Property Name="TipoCta" Type="varchar" MaxLength="20" />
+    <Property Name="Posicion" Type="int" />
+  </EntityType>
+  <EntityType Name="CategoriasProductos">
+    <Key>
+      <PropertyRef Name="CategoriaID" />
+    </Key>
+    <Property Name="CategoriaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar(max)" />
+    <Property Name="Detalle" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="ClasificacionCuentas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="ClienteID" />
+    </Key>
+    <Property Name="ClienteID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Representante" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Celular" Type="nvarchar" MaxLength="20" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="20" />
+    <Property Name="Correo" Type="nvarchar(max)" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="100" />
+    <Property Name="Nota" Type="nvarchar" MaxLength="100" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="Rnc" Type="nvarchar" MaxLength="15" />
+    <Property Name="Precio" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fichas" Type="varchar(max)" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="VendedorId" Type="int" />
+    <Property Name="Vendedor" Type="varchar(max)" />
+    <Property Name="LimiteCredito" Type="int" />
+  </EntityType>
+  <EntityType Name="CompraItems">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="100" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Subtotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Codigo" Type="nvarchar" MaxLength="50" />
+    <Property Name="CompraID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="CantAlmacen" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Expiraciones" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Compras">
+    <Key>
+      <PropertyRef Name="CompraID" />
+    </Key>
+    <Property Name="CompraID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="varchar" MaxLength="500" />
+    <Property Name="Prazo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Rnc" Type="varchar" MaxLength="50" />
+    <Property Name="Ncf" Type="varchar" MaxLength="50" />
+    <Property Name="TipoBienesServicios" Type="varchar" MaxLength="500" />
+    <Property Name="Cliente" Type="varchar" MaxLength="100" />
+    <Property Name="Direccion" Type="varchar" MaxLength="1000" />
+    <Property Name="Telefono" Type="varchar" MaxLength="50" />
+    <Property Name="Marca" Type="varchar" MaxLength="50" />
+    <Property Name="Modelo" Type="varchar" MaxLength="50" />
+    <Property Name="Ano" Type="varchar" MaxLength="50" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="20" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="10" />
+    <Property Name="FechaVence" Type="datetime" />
+    <Property Name="PorItbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorDes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Pagado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Enumeracion" Type="int" />
+    <Property Name="Correo" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="ComprasOld">
+    <Key>
+      <PropertyRef Name="CompraID" />
+    </Key>
+    <Property Name="CompraID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="varchar" MaxLength="500" />
+    <Property Name="Prazo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Rnc" Type="varchar" MaxLength="50" />
+    <Property Name="Ncf" Type="varchar" MaxLength="50" />
+    <Property Name="TipoBienesServicios" Type="varchar" MaxLength="500" />
+    <Property Name="Cliente" Type="varchar" MaxLength="100" />
+    <Property Name="Direccion" Type="varchar" MaxLength="1000" />
+    <Property Name="Telefono" Type="varchar" MaxLength="50" />
+    <Property Name="Marca" Type="varchar" MaxLength="50" />
+    <Property Name="Modelo" Type="varchar" MaxLength="50" />
+    <Property Name="Ano" Type="varchar" MaxLength="50" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="20" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="10" />
+    <Property Name="FechaVence" Type="datetime" />
+    <Property Name="PorItbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorDes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Pagado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Enumeracion" Type="int" />
+    <Property Name="Correo" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="ConduceItems">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="100" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Subtotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Codigo" Type="nvarchar" MaxLength="50" />
+    <Property Name="ConduceID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="CantAlmacen" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cotizacion" Type="nvarchar(max)" />
+    <Property Name="Expiraciones" Type="varchar" MaxLength="100" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Prepado" Type="bit" />
+    <Property Name="SinImpuesto" Type="bit" />
+    <Property Name="Inicio" Type="date" />
+    <Property Name="Fin" Type="date" />
+    <Property Name="Precio1" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio2" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio3" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio4" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min1" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min2" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min3" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min4" Type="decimal" Precision="18" Scale="4" />
+  </EntityType>
+  <EntityType Name="ConduceItemsOld">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="100" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Subtotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Codigo" Type="nvarchar" MaxLength="50" />
+    <Property Name="ConduceID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="CantAlmacen" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cotizacion" Type="nvarchar(max)" />
+    <Property Name="Expiraciones" Type="varchar" MaxLength="100" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="Conduces">
+    <Key>
+      <PropertyRef Name="ConduceID" />
+    </Key>
+    <Property Name="ConduceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="nchar" MaxLength="100" />
+    <Property Name="Prazo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Rnc" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ncf" Type="nvarchar" MaxLength="30" />
+    <Property Name="TipoComprobante" Type="nvarchar" MaxLength="20" />
+    <Property Name="Cliente" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar(max)" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="20" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ano" Type="nvarchar" MaxLength="10" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="20" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="10" />
+    <Property Name="FechaVence" Type="datetime" />
+    <Property Name="PorItbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorDes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Pagado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Enumeracion" Type="int" />
+    <Property Name="UtilidadBruta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="UtilidadNeta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="CorreoElectronico" Type="nvarchar" MaxLength="50" />
+    <Property Name="VendedorID" Type="int" />
+    <Property Name="Vendedor" Type="varchar(max)" />
+    <Property Name="CajaID" Type="int" />
+    <Property Name="Cajero" Type="varchar" MaxLength="100" />
+    <Property Name="ReporteDeCajaID" Type="int" />
+    <Property Name="Recibo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cambio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="AfectarInventario" Type="bit" />
+    <Property Name="Estado" Type="varchar" MaxLength="50" />
+    <Property Name="Seguro" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorcientoSeguro" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="ConducesOld">
+    <Key>
+      <PropertyRef Name="ConduceID" />
+    </Key>
+    <Property Name="ConduceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="nchar" MaxLength="100" />
+    <Property Name="Prazo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Rnc" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ncf" Type="nvarchar" MaxLength="30" />
+    <Property Name="TipoComprobante" Type="nvarchar" MaxLength="20" />
+    <Property Name="Cliente" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="20" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ano" Type="nvarchar" MaxLength="10" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="20" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="10" />
+    <Property Name="FechaVence" Type="datetime" />
+    <Property Name="PorItbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorDes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Pagado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Enumeracion" Type="int" />
+    <Property Name="UtilidadBruta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="UtilidadNeta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="CorreoElectronico" Type="nvarchar" MaxLength="50" />
+    <Property Name="VendedorID" Type="int" />
+    <Property Name="Vendedor" Type="varchar(max)" />
+    <Property Name="CajaID" Type="int" />
+    <Property Name="Cajero" Type="varchar" MaxLength="100" />
+    <Property Name="Estado" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Configuracion">
+    <Key>
+      <PropertyRef Name="ConfiguracionID" />
+    </Key>
+    <Property Name="ConfiguracionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" />
+    <Property Name="Logo" Type="image" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="100" />
+    <Property Name="Telefono" Type="nchar" MaxLength="20" />
+    <Property Name="Fax" Type="nchar" MaxLength="20" />
+    <Property Name="Rnc" Type="nchar" MaxLength="20" />
+    <Property Name="Notas" Type="nvarchar(max)" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Representante" Type="nvarchar" MaxLength="50" />
+    <Property Name="PorPre1" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorPre2" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorPre3" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ImpuestoEnProducto" Type="bit" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Seguro" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Transporte" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PermitirDescuento" Type="bit" />
+  </EntityType>
+  <EntityType Name="ConfiguracionContable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="InicioContabilidad" Type="date" />
+    <Property Name="CuentaCierreEjercicio" Type="varchar" MaxLength="20" />
+    <Property Name="CuentaCapital" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="ContizacionesItemsOld">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="100" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Subtotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Codigo" Type="nvarchar" MaxLength="50" />
+    <Property Name="CotizacionID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="CantAlmacen" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cotizacion" Type="varchar(max)" />
+    <Property Name="Expiraciones" Type="varchar" MaxLength="100" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="ContizacionesItemsOld2">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="100" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Subtotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Codigo" Type="nvarchar" MaxLength="50" />
+    <Property Name="CotizacionID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="CantAlmacen" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+  </EntityType>
+  <EntityType Name="Correo">
+    <Key>
+      <PropertyRef Name="CorreoID" />
+    </Key>
+    <Property Name="CorreoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Titulo" Type="varchar" MaxLength="50" />
+    <Property Name="Correo" Type="varchar" MaxLength="50" />
+    <Property Name="Contrasena" Type="varchar" MaxLength="50" />
+    <Property Name="smtp" Type="varchar" MaxLength="50" />
+    <Property Name="puerto" Type="int" />
+    <Property Name="Proveedor" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="CorreosCliente">
+    <Key>
+      <PropertyRef Name="CorreoClienteId" />
+    </Key>
+    <Property Name="CorreoClienteId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar(max)" />
+    <Property Name="Correo" Type="nvarchar(max)" />
+    <Property Name="Enviar" Type="bit" />
+    <Property Name="ClienteId" Type="int" />
+  </EntityType>
+  <EntityType Name="Cotizaciones">
+    <Key>
+      <PropertyRef Name="CotizacionID" />
+    </Key>
+    <Property Name="CotizacionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="nchar" MaxLength="100" />
+    <Property Name="Prazo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Rnc" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ncf" Type="nvarchar" MaxLength="30" />
+    <Property Name="TipoComprobante" Type="nvarchar" MaxLength="20" />
+    <Property Name="Cliente" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar(max)" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="20" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ano" Type="nvarchar" MaxLength="10" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="20" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="10" />
+    <Property Name="FechaVence" Type="datetime" />
+    <Property Name="PorItbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorDes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Pagado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Enumeracion" Type="int" />
+    <Property Name="UtilidadBruta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="UtilidadNeta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="CorreoElectronico" Type="nvarchar" MaxLength="50" />
+    <Property Name="VendedorID" Type="int" />
+    <Property Name="Vendedor" Type="varchar(max)" />
+    <Property Name="CajaID" Type="int" />
+    <Property Name="Cajero" Type="varchar" MaxLength="100" />
+    <Property Name="ReporteDeCajaID" Type="int" />
+    <Property Name="Recibo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cambio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="AfectarInventario" Type="bit" />
+    <Property Name="Estado" Type="varchar" MaxLength="50" />
+    <Property Name="Seguro" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorcientoSeguro" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="MonedaId" Type="int" />
+    <Property Name="Tasa" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="FechaTasa" Type="datetime" />
+  </EntityType>
+  <EntityType Name="CotizacionesItems">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="100" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Subtotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Codigo" Type="nvarchar" MaxLength="50" />
+    <Property Name="CotizacionID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="CantAlmacen" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cotizacion" Type="nvarchar(max)" />
+    <Property Name="Expiraciones" Type="varchar" MaxLength="100" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Prepado" Type="bit" />
+    <Property Name="SinImpuesto" Type="bit" />
+    <Property Name="Inicio" Type="date" />
+    <Property Name="Fin" Type="date" />
+    <Property Name="Precio1" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio2" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio3" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio4" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min1" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min2" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min3" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min4" Type="decimal" Precision="18" Scale="4" />
+  </EntityType>
+  <EntityType Name="CotizacionesOld">
+    <Key>
+      <PropertyRef Name="CotizacionID" />
+    </Key>
+    <Property Name="CotizacionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="nchar" MaxLength="100" />
+    <Property Name="Prazo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Rnc" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ncf" Type="nvarchar" MaxLength="30" />
+    <Property Name="TipoComprobante" Type="nvarchar" MaxLength="20" />
+    <Property Name="Cliente" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="20" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ano" Type="nvarchar" MaxLength="10" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="20" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="10" />
+    <Property Name="FechaVence" Type="datetime" />
+    <Property Name="PorItbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorDes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Pagado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Enumeracion" Type="int" />
+    <Property Name="UtilidadBruta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="UtilidadNeta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="CorreoElectronico" Type="nvarchar" MaxLength="50" />
+    <Property Name="VendedorID" Type="int" />
+    <Property Name="Vendedor" Type="varchar(max)" />
+    <Property Name="CajaID" Type="int" />
+    <Property Name="Cajero" Type="varchar" MaxLength="100" />
+    <Property Name="Enviar" Type="varchar" MaxLength="100" />
+    <Property Name="Caja" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="CotizacionesOld2">
+    <Key>
+      <PropertyRef Name="CotizacionID" />
+    </Key>
+    <Property Name="CotizacionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="nchar" MaxLength="100" />
+    <Property Name="Prazo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Rnc" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ncf" Type="nvarchar" MaxLength="30" />
+    <Property Name="TipoComprobante" Type="nvarchar" MaxLength="20" />
+    <Property Name="Cliente" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="20" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ano" Type="nvarchar" MaxLength="10" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="20" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="10" />
+    <Property Name="FechaVence" Type="datetime" />
+    <Property Name="PorItbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorDes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="CorreoElectronico" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CuentasPorCobrar">
+    <Key>
+      <PropertyRef Name="CuentaPorCobrarID" />
+    </Key>
+    <Property Name="CuentaPorCobrarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="Cliente" Type="varchar" MaxLength="500" />
+    <Property Name="Tipo" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="500" />
+    <Property Name="Vence" Type="datetime" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Status" Type="varchar" MaxLength="50" />
+    <Property Name="Afecta" Type="int" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="TipoAfectado" Type="varchar" MaxLength="50" />
+    <Property Name="Afecta2" Type="varchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="CuentasPorPagar">
+    <Key>
+      <PropertyRef Name="CuentaPorCobrarID" />
+    </Key>
+    <Property Name="CuentaPorCobrarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="Cliente" Type="varchar" MaxLength="500" />
+    <Property Name="Tipo" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="500" />
+    <Property Name="Vence" Type="datetime" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Status" Type="nvarchar(max)" />
+    <Property Name="Afecta" Type="int" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="TipoAfectado" Type="varchar" MaxLength="50" />
+    <Property Name="Afecta2" Type="varchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="Deudas">
+    <Key>
+      <PropertyRef Name="DeudaID" />
+    </Key>
+    <Property Name="DeudaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cliente" Type="varchar(max)" Nullable="false" />
+    <Property Name="Corriente" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Vence1" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Vence2" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Vence3" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Vence4" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="DeudasNew">
+    <Key>
+      <PropertyRef Name="DeudaID" />
+    </Key>
+    <Property Name="DeudaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cliente" Type="varchar(max)" />
+    <Property Name="Corriente" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Vence1" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Vence2" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Vence3" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Vence4" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="EstadoArticulo">
+    <Key>
+      <PropertyRef Name="EstadoArticuloID" />
+    </Key>
+    <Property Name="EstadoArticuloID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="FacturaID" Type="int" />
+    <Property Name="Cliente" Type="varchar" MaxLength="200" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="EstadoId" Type="int" />
+  </EntityType>
+  <EntityType Name="EstadosArticulos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="EstadosInventario">
+    <Key>
+      <PropertyRef Name="EstadoId" />
+    </Key>
+    <Property Name="EstadoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ExportarCompras">
+    <Key>
+      <PropertyRef Name="Lineas" />
+    </Key>
+    <Property Name="Lineas" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RNCCedula" Type="nvarchar" MaxLength="20" />
+    <Property Name="TipoId" Type="smallint" />
+    <Property Name="TipoBienesYservicios" Type="nvarchar(max)" />
+    <Property Name="NCF" Type="nvarchar" MaxLength="20" />
+    <Property Name="NCFMODIFICADO" Type="nvarchar" MaxLength="50" />
+    <Property Name="FechaComprobante" Type="nvarchar" MaxLength="20" />
+    <Property Name="FechaComprobanteDia" Type="nvarchar" MaxLength="10" />
+    <Property Name="FechaPago" Type="nvarchar" MaxLength="20" />
+    <Property Name="FechaPagoDia" Type="nvarchar" MaxLength="10" />
+    <Property Name="ItbisFacturado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ItbisRetenido" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="MontoFacturado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="RetencionRenta" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="FacturaItems">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="100" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Subtotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Codigo" Type="nvarchar" MaxLength="50" />
+    <Property Name="FacturaID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="CantAlmacen" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cotizacion" Type="nvarchar(max)" />
+    <Property Name="Expiraciones" Type="varchar" MaxLength="100" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Prepado" Type="bit" />
+    <Property Name="SinImpuesto" Type="bit" />
+    <Property Name="Inicio" Type="date" />
+    <Property Name="Fin" Type="date" />
+    <Property Name="Precio1" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio2" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio3" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio4" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min1" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min2" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min3" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min4" Type="decimal" Precision="18" Scale="4" />
+  </EntityType>
+  <EntityType Name="Facturas">
+    <Key>
+      <PropertyRef Name="FacturaID" />
+    </Key>
+    <Property Name="FacturaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="nchar" MaxLength="100" />
+    <Property Name="Prazo" Type="varchar" MaxLength="50" />
+    <Property Name="Rnc" Type="varchar" MaxLength="50" />
+    <Property Name="Ncf" Type="varchar" MaxLength="50" />
+    <Property Name="TipoComprobante" Type="nvarchar" MaxLength="20" />
+    <Property Name="Cliente" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar(max)" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="20" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ano" Type="nvarchar" MaxLength="10" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="20" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="10" />
+    <Property Name="FechaVence" Type="datetime" />
+    <Property Name="PorItbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorDes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Pagado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Enumeracion" Type="int" />
+    <Property Name="UtilidadBruta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="UtilidadNeta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="CorreoElectronico" Type="nvarchar" MaxLength="50" />
+    <Property Name="VendedorID" Type="int" />
+    <Property Name="Vendedor" Type="varchar(max)" />
+    <Property Name="CajaID" Type="int" />
+    <Property Name="Cajero" Type="varchar" MaxLength="100" />
+    <Property Name="ReporteDeCajaID" Type="int" />
+    <Property Name="Recibo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cambio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="AfectarInventario" Type="bit" />
+    <Property Name="Estado" Type="varchar" MaxLength="50" />
+    <Property Name="Seguro" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorcientoSeguro" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="MonedaId" Type="int" />
+    <Property Name="Tasa" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="FechaTasa" Type="datetime" />
+  </EntityType>
+  <EntityType Name="FacturasOld">
+    <Key>
+      <PropertyRef Name="FacturaID" />
+    </Key>
+    <Property Name="FacturaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="nchar" MaxLength="100" />
+    <Property Name="Prazo" Type="varchar" MaxLength="50" />
+    <Property Name="Rnc" Type="varchar" MaxLength="50" />
+    <Property Name="Ncf" Type="varchar" MaxLength="50" />
+    <Property Name="TipoComprobante" Type="nvarchar" MaxLength="20" />
+    <Property Name="Cliente" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar(max)" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="20" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ano" Type="nvarchar" MaxLength="10" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="20" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="10" />
+    <Property Name="FechaVence" Type="datetime" />
+    <Property Name="PorItbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorDes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Pagado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Enumeracion" Type="int" />
+    <Property Name="UtilidadBruta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="UtilidadNeta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="CorreoElectronico" Type="nvarchar" MaxLength="50" />
+    <Property Name="VendedorID" Type="int" />
+    <Property Name="Vendedor" Type="varchar(max)" />
+    <Property Name="CajaID" Type="int" />
+    <Property Name="Cajero" Type="varchar" MaxLength="100" />
+    <Property Name="ReporteDeCajaID" Type="int" />
+    <Property Name="Recibo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cambio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="AfectarInventario" Type="bit" />
+    <Property Name="Estado" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="FamiliaProducto">
+    <Key>
+      <PropertyRef Name="FamiliaID" />
+    </Key>
+    <Property Name="FamiliaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar(max)" />
+    <Property Name="Nota" Type="nvarchar(max)" />
+    <Property Name="ProductoId" Type="int" />
+    <Property Name="ProductoIdFamilia" Type="int" />
+  </EntityType>
+  <EntityType Name="FuentesContables">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="Activo" Type="bit" />
+  </EntityType>
+  <EntityType Name="HistorialEstados">
+    <Key>
+      <PropertyRef Name="HistorialEstadoId" />
+    </Key>
+    <Property Name="HistorialEstadoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClienteId" Type="int" />
+    <Property Name="InventarioId" Type="int" />
+    <Property Name="FacturaId" Type="int" />
+    <Property Name="Desde" Type="date" />
+    <Property Name="Hasta" Type="date" />
+  </EntityType>
+  <EntityType Name="Inventario">
+    <Key>
+      <PropertyRef Name="ProductoID" />
+    </Key>
+    <Property Name="ProductoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoFabricante" Type="varchar" MaxLength="50" />
+    <Property Name="Codigo" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="500" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Precio1" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio2" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio3" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio4" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Stock" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="varchar" MaxLength="200" />
+    <Property Name="ProveedorID" Type="int" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="Proveedor" Type="varchar" MaxLength="100" />
+    <Property Name="PorPre1" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorPre2" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorPre3" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorPre4" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Minimo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="CategoriaID" Type="int" />
+    <Property Name="Categoria" Type="varchar" MaxLength="100" />
+    <Property Name="FechaExpedicion" Type="date" />
+    <Property Name="FechaExpiracion" Type="date" />
+    <Property Name="FamiliaID" Type="int" />
+    <Property Name="Tipo" Type="varchar" MaxLength="50" />
+    <Property Name="SinImpuesto" Type="bit" />
+    <Property Name="EstadoId" Type="int" />
+    <Property Name="Desde" Type="date" />
+    <Property Name="Hasta" Type="date" />
+    <Property Name="Activo" Type="bit" />
+    <Property Name="Min1" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min2" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min3" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min4" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio1_Itbis" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio2_Itbis" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio3_Itbis" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio4_Itbis" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="IdEstadoArticulo" Type="int" />
+    <Property Name="EstadoDescripcion" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="InventarioOld">
+    <Key>
+      <PropertyRef Name="ProductoID" />
+    </Key>
+    <Property Name="ProductoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoFabricante" Type="nvarchar" MaxLength="50" />
+    <Property Name="Codigo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Descripcion" Type="nvarchar(max)" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Precio1" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Precio2" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Precio3" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Stock" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="nchar" MaxLength="100" />
+    <Property Name="ProveedorID" Type="int" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="Proveedor" Type="nvarchar" MaxLength="50" />
+    <Property Name="PorPre1" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorPre2" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorPre3" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Minimo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="CategoriaID" Type="int" />
+    <Property Name="Categoria" Type="nvarchar" MaxLength="50" />
+    <Property Name="FechaExpedicion" Type="date" />
+    <Property Name="FechaExpiracion" Type="date" />
+    <Property Name="FamiliaID" Type="int" />
+    <Property Name="Tipo" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Monedas">
+    <Key>
+      <PropertyRef Name="MonedaId" />
+    </Key>
+    <Property Name="MonedaId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Simbolo" Type="varchar" MaxLength="10" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="Eliminada" Type="bit" />
+  </EntityType>
+  <EntityType Name="NCF">
+    <Key>
+      <PropertyRef Name="ComprobanteID" />
+    </Key>
+    <Property Name="ComprobanteID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="50" />
+    <Property Name="NcfFijos" Type="nvarchar" MaxLength="20" />
+    <Property Name="NcfDinamicos" Type="nvarchar" MaxLength="8" />
+    <Property Name="ddsf" Type="int" />
+    <Property Name="Cantidad" Type="int" />
+    <Property Name="Expiracion" Type="date" />
+    <Property Name="Consumidos" Type="int" />
+    <Property Name="CantidadNotifica" Type="int" />
+  </EntityType>
+  <EntityType Name="NotaCredito">
+    <Key>
+      <PropertyRef Name="NotaCreditoID" />
+    </Key>
+    <Property Name="NotaCreditoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="nchar" MaxLength="100" />
+    <Property Name="Prazo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Rnc" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ncf" Type="nvarchar" MaxLength="30" />
+    <Property Name="TipoComprobante" Type="nvarchar" MaxLength="20" />
+    <Property Name="Cliente" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar(max)" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="20" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ano" Type="nvarchar" MaxLength="10" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="20" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="10" />
+    <Property Name="FechaVence" Type="datetime" />
+    <Property Name="PorItbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorDes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Pagado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Enumeracion" Type="int" />
+    <Property Name="UtilidadBruta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="UtilidadNeta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="CorreoElectronico" Type="nvarchar" MaxLength="50" />
+    <Property Name="VendedorID" Type="int" />
+    <Property Name="Vendedor" Type="varchar(max)" />
+    <Property Name="CajaID" Type="int" />
+    <Property Name="Cajero" Type="varchar" MaxLength="100" />
+    <Property Name="ReporteDeCajaID" Type="int" />
+    <Property Name="Recibo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cambio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="AfectarInventario" Type="bit" />
+    <Property Name="FacturaAfecta" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="NotaCreditoItems">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="100" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Subtotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Codigo" Type="nvarchar" MaxLength="50" />
+    <Property Name="NotaCreditoID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="CantAlmacen" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cotizacion" Type="nvarchar(max)" />
+    <Property Name="Expiraciones" Type="varchar" MaxLength="100" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Prepado" Type="bit" />
+    <Property Name="SinImpuesto" Type="bit" />
+    <Property Name="Inicio" Type="date" />
+    <Property Name="Fin" Type="date" />
+    <Property Name="Precio1" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio2" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio3" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio4" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min1" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min2" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min3" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min4" Type="decimal" Precision="18" Scale="4" />
+  </EntityType>
+  <EntityType Name="NotaCreditoItemsOld">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="100" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Subtotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Codigo" Type="varchar" MaxLength="50" />
+    <Property Name="ConduceID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="CantAlmacen" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cotizacion" Type="varchar(max)" />
+    <Property Name="Expiraciones" Type="varchar" MaxLength="100" />
+    <Property Name="NotaCreditoID" Type="int" />
+  </EntityType>
+  <EntityType Name="NotaCreditoOld">
+    <Key>
+      <PropertyRef Name="NotaCreditoID" />
+    </Key>
+    <Property Name="NotaCreditoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="varchar(max)" />
+    <Property Name="Prazo" Type="varchar(max)" />
+    <Property Name="Rnc" Type="varchar" MaxLength="100" />
+    <Property Name="Ncf" Type="varchar" MaxLength="100" />
+    <Property Name="TipoComprobante" Type="varchar" MaxLength="100" />
+    <Property Name="Cliente" Type="varchar(max)" />
+    <Property Name="Direccion" Type="varchar(max)" />
+    <Property Name="Telefono" Type="varchar" MaxLength="50" />
+    <Property Name="Marca" Type="varchar" MaxLength="100" />
+    <Property Name="Modelo" Type="varchar" MaxLength="100" />
+    <Property Name="Ano" Type="varchar" MaxLength="20" />
+    <Property Name="Ficha" Type="varchar" MaxLength="100" />
+    <Property Name="Placa" Type="varchar" MaxLength="20" />
+    <Property Name="FechaVence" Type="datetime" />
+    <Property Name="PorItbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorDes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Pagado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Enumeracion" Type="int" />
+    <Property Name="UtilidadBruta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="UtilidadNeta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="CorreoElectronico" Type="varchar(max)" />
+    <Property Name="Retornado" Type="bit" />
+  </EntityType>
+  <EntityType Name="NotaDebito">
+    <Key>
+      <PropertyRef Name="NotaDebitoID" />
+    </Key>
+    <Property Name="NotaDebitoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Nota" Type="nchar" MaxLength="100" />
+    <Property Name="Prazo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Rnc" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ncf" Type="nvarchar" MaxLength="30" />
+    <Property Name="TipoComprobante" Type="nvarchar" MaxLength="20" />
+    <Property Name="Cliente" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar(max)" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="20" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="20" />
+    <Property Name="Ano" Type="nvarchar" MaxLength="10" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="20" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="10" />
+    <Property Name="FechaVence" Type="datetime" />
+    <Property Name="PorItbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="PorDes" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Pagado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Enumeracion" Type="int" />
+    <Property Name="UtilidadBruta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="UtilidadNeta" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="CorreoElectronico" Type="nvarchar" MaxLength="50" />
+    <Property Name="VendedorID" Type="int" />
+    <Property Name="Vendedor" Type="varchar(max)" />
+    <Property Name="CajaID" Type="int" />
+    <Property Name="Cajero" Type="varchar" MaxLength="100" />
+    <Property Name="ReporteDeCajaID" Type="int" />
+    <Property Name="Recibo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cambio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="AfectarInventario" Type="bit" />
+    <Property Name="FacturaAfecta" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="NotaDebitoItems">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="100" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Subtotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Codigo" Type="nvarchar" MaxLength="50" />
+    <Property Name="NotaDebitoID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="CantAlmacen" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cotizacion" Type="nvarchar(max)" />
+    <Property Name="Expiraciones" Type="varchar" MaxLength="100" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Prepado" Type="bit" />
+    <Property Name="SinImpuesto" Type="bit" />
+    <Property Name="Inicio" Type="date" />
+    <Property Name="Fin" Type="date" />
+    <Property Name="Precio1" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio2" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio3" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Precio4" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min1" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min2" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min3" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Min4" Type="decimal" Precision="18" Scale="4" />
+  </EntityType>
+  <EntityType Name="Proveedores">
+    <Key>
+      <PropertyRef Name="ProveedorID" />
+    </Key>
+    <Property Name="ProveedorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="200" />
+    <Property Name="Representante" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Celular" Type="nvarchar" MaxLength="20" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="20" />
+    <Property Name="Correo" Type="nvarchar(max)" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="100" />
+    <Property Name="Nota" Type="nvarchar" MaxLength="100" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="Rnc" Type="nvarchar" MaxLength="15" />
+    <Property Name="EsProveedor" Type="bit" />
+    <Property Name="NombreComercial" Type="varchar" MaxLength="100" />
+    <Property Name="Eliminado" Type="bit" />
+  </EntityType>
+  <EntityType Name="RegistroActividades">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Empresa" Type="varchar" MaxLength="100" />
+    <Property Name="IdEmpresa" Type="int" />
+    <Property Name="Cte" Type="bit" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="200" />
+    <Property Name="Total" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="IdAsiento" Type="int" />
+    <Property Name="Ingreso" Type="bit" />
+    <Property Name="Eliminado" Type="bit" />
+  </EntityType>
+  <EntityType Name="RegistroProducto">
+    <Key>
+      <PropertyRef Name="RegistroID" />
+    </Key>
+    <Property Name="RegistroID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="FechaExpiracion" Type="date" />
+    <Property Name="FechaExpedicion" Type="date" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="RegistroProductoResp">
+    <Key>
+      <PropertyRef Name="RegistroID" />
+    </Key>
+    <Property Name="RegistroID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="FechaExpiracion" Type="date" />
+    <Property Name="FechaExpedicion" Type="date" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="Balance" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="Registros">
+    <Key>
+      <PropertyRef Name="RegistroID" />
+    </Key>
+    <Property Name="RegistroID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="VehiculoID" Type="int" />
+    <Property Name="Nota" Type="nvarchar(max)" />
+    <Property Name="Estado" Type="bit" />
+    <Property Name="Entrega" Type="datetime" />
+    <Property Name="Gato" Type="bit" />
+    <Property Name="Radio" Type="bit" />
+    <Property Name="CajaCD" Type="bit" />
+    <Property Name="GomaRP" Type="bit" />
+    <Property Name="VidrioTras" Type="bit" />
+    <Property Name="LlavesRuedas" Type="bit" />
+    <Property Name="Ecualizador" Type="bit" />
+    <Property Name="Espejos" Type="bit" />
+    <Property Name="TaponGasolina" Type="bit" />
+    <Property Name="VidriosLate" Type="bit" />
+    <Property Name="Herramientas" Type="bit" />
+    <Property Name="Planta" Type="bit" />
+    <Property Name="TapaBocina" Type="bit" />
+    <Property Name="VidrioDel" Type="bit" />
+    <Property Name="Otros" Type="bit" />
+    <Property Name="Cliente" Type="nvarchar(max)" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="50" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ReporteDeCaja">
+    <Key>
+      <PropertyRef Name="ReporteDeCajaID" />
+    </Key>
+    <Property Name="ReporteDeCajaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Estacion" Type="varchar" MaxLength="100" />
+    <Property Name="EstacionID" Type="int" />
+    <Property Name="Cajero" Type="varchar" MaxLength="100" />
+    <Property Name="InicioCaja" Type="datetime" />
+    <Property Name="MontoInicio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="TotalFacturado" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="RecibidoEnEfectivo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="InformoOperador" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="FechaCierre" Type="datetime" />
+    <Property Name="Observaciones" Type="varchar(max)" />
+    <Property Name="UsuarioID" Type="int" />
+    <Property Name="Diferencia" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Estado" Type="bit" />
+  </EntityType>
+  <EntityType Name="RpInventario">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar(max)" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Categoria" Type="nvarchar(max)" />
+    <Property Name="Codigo" Type="nvarchar(max)" />
+    <Property Name="Stock" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ValorInventario" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ValorVenta" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'OpticaNew.dbo.Servicios' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Servicios">
+    <Key>
+      <PropertyRef Name="ServicioID" />
+    </Key>
+    <Property Name="ServicioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nchar" MaxLength="100" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Detalle" Type="nchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Sucursales">
+    <Key>
+      <PropertyRef Name="SucursarID" />
+    </Key>
+    <Property Name="SucursarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar(max)" />
+    <Property Name="Representante" Type="varchar(max)" />
+    <Property Name="Telefono" Type="varchar" MaxLength="20" />
+    <Property Name="Celular" Type="varchar" MaxLength="20" />
+    <Property Name="Fax" Type="varchar" MaxLength="20" />
+    <Property Name="Correo" Type="varchar(max)" />
+    <Property Name="Direccion" Type="varchar" MaxLength="100" />
+    <Property Name="Nota" Type="varchar" MaxLength="100" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="Rnc" Type="varchar" MaxLength="15" />
+    <Property Name="Precio" Type="varchar" MaxLength="100" />
+    <Property Name="Fichas" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="TasaDias">
+    <Key>
+      <PropertyRef Name="TasaDiaId" />
+    </Key>
+    <Property Name="TasaDiaId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MonedaId" Type="int" />
+    <Property Name="Valor" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="Eliminada" Type="bit" />
+  </EntityType>
+  <EntityType Name="TransAutomaticas">
+    <Key>
+      <PropertyRef Name="TransAutomaticasId" />
+    </Key>
+    <Property Name="TransAutomaticasId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="Comentario" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="UsuarioID" />
+    </Key>
+    <Property Name="UsuarioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Contrasena" Type="nvarchar" MaxLength="50" />
+    <Property Name="Facturacion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Compras" Type="nvarchar" MaxLength="50" />
+    <Property Name="CuentasPorPagar" Type="nvarchar" MaxLength="50" />
+    <Property Name="CuentasPorCobrar" Type="nvarchar" MaxLength="50" />
+    <Property Name="Usuarios" Type="nvarchar" MaxLength="50" />
+    <Property Name="Inventario" Type="nvarchar" MaxLength="50" />
+    <Property Name="Clientes" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cajas" Type="nvarchar" MaxLength="50" />
+    <Property Name="Conduce" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cotizacion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Contabilidad" Type="nvarchar" MaxLength="50" />
+    <Property Name="NotaDeCredito" Type="nvarchar" MaxLength="50" />
+    <Property Name="NotaDeDebito" Type="nvarchar" MaxLength="50" />
+    <Property Name="Configuracion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tasas" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Vehiculos">
+    <Key>
+      <PropertyRef Name="VehiculoID" />
+    </Key>
+    <Property Name="VehiculoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="30" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="30" />
+    <Property Name="Ano" Type="nvarchar" MaxLength="10" />
+    <Property Name="Placa" Type="nvarchar" MaxLength="30" />
+    <Property Name="Ficha" Type="nvarchar" MaxLength="30" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="Nota" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Vendedores">
+    <Key>
+      <PropertyRef Name="VendedorID" />
+    </Key>
+    <Property Name="VendedorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar(max)" />
+    <Property Name="Comision" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'OpticaNew.dbo.View_Cuentas' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="View_Cuentas">
+    <Key>
+      <PropertyRef Name="NoCuenta" />
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="ClasificacionId" />
+    </Key>
+    <Property Name="NoCuenta" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar(max)" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="TipoCta" Type="varchar" MaxLength="20" />
+    <Property Name="Clasificacion" Type="varchar" MaxLength="50" />
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Activo" Type="bit" />
+    <Property Name="Posicion" Type="int" />
+    <Property Name="ClasificacionId" Type="int" Nullable="false" />
+    <Property Name="Registro" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'OpticaNew.dbo.View_FacturaItemStatus' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="View_FacturaItemStatus">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="int" Nullable="false" />
+    <Property Name="Cantidad" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="100" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Descuento" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Subtotal" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Codigo" Type="nvarchar" MaxLength="50" />
+    <Property Name="FacturaID" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+    <Property Name="CantAlmacen" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Eliminada" Type="bit" />
+    <Property Name="Costo" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cotizacion" Type="nvarchar(max)" />
+    <Property Name="Expiraciones" Type="varchar" MaxLength="100" />
+    <Property Name="Itbis" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Categoria" Type="varchar(max)" />
+    <Property Name="Prepado" Type="bit" />
+    <Property Name="CategoriaID" Type="int" />
+    <Property Name="Cliente" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar(max)" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'OpticaNew.dbo.ViewAsientos' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ViewAsientos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="Referencia" Type="varchar" MaxLength="150" />
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Comprobante" Type="varchar" MaxLength="50" />
+    <Property Name="TotalDebito" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="TotalCredito" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cuenta" Type="varchar" MaxLength="50" />
+    <Property Name="Comentario" Type="varchar" MaxLength="120" />
+    <Property Name="Debito" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Credito" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Rnc" Type="varchar" MaxLength="20" />
+    <Property Name="DescripcionCta" Type="varchar" MaxLength="200" />
+    <Property Name="Eliminado" Type="bit" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'OpticaNew.dbo.ViewHistoricoEstados' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ViewHistoricoEstados">
+    <Key>
+      <PropertyRef Name="EstadoArticuloID" />
+    </Key>
+    <Property Name="EstadoArticuloID" Type="int" Nullable="false" />
+    <Property Name="FacturaID" Type="int" />
+    <Property Name="Cliente" Type="varchar" MaxLength="200" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="ClienteID" Type="int" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="100" />
+    <Property Name="EstadoId" Type="int" />
+    <Property Name="ProductoID" Type="int" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'OpticaNew.dbo.vwTasasDias' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vwTasasDias">
+    <Key>
+      <PropertyRef Name="TasaDiaId" />
+      <PropertyRef Name="MonedaId" />
+    </Key>
+    <Property Name="TasaDiaId" Type="int" Nullable="false" />
+    <Property Name="Valor" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="MonedaId" Type="int" Nullable="false" />
+    <Property Name="Simbolo" Type="varchar" MaxLength="10" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="Eliminada" Type="bit" />
+  </EntityType>
+  <Function Name="EspDetalle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="varchar(max)">
+    <Parameter Name="cuenta" Type="varchar" Mode="In" />
+    <Parameter Name="nodetalle" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="pr_AsientosAutCrearFactura" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_backup_automatic" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_GetMoneda" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MonedaId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_UltimaDivisa" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MonedaId" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="OpticaNewModelEntityStoreContainer">
+    <EntitySet Name="AsAutomaticos" EntityType="Self.AsAutomaticos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AsientosContables" EntityType="Self.AsientosContables" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AsientosDetalle" EntityType="Self.AsientosDetalle" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cajas" EntityType="Self.Cajas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CatalogoDeCuenta" EntityType="Self.CatalogoDeCuenta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CategoriasProductos" EntityType="Self.CategoriasProductos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClasificacionCuentas" EntityType="Self.ClasificacionCuentas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CompraItems" EntityType="Self.CompraItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Compras" EntityType="Self.Compras" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ComprasOld" EntityType="Self.ComprasOld" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ConduceItems" EntityType="Self.ConduceItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ConduceItemsOld" EntityType="Self.ConduceItemsOld" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Conduces" EntityType="Self.Conduces" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ConducesOld" EntityType="Self.ConducesOld" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Configuracion" EntityType="Self.Configuracion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ConfiguracionContable" EntityType="Self.ConfiguracionContable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ContizacionesItemsOld" EntityType="Self.ContizacionesItemsOld" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ContizacionesItemsOld2" EntityType="Self.ContizacionesItemsOld2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Correo" EntityType="Self.Correo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CorreosCliente" EntityType="Self.CorreosCliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cotizaciones" EntityType="Self.Cotizaciones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CotizacionesItems" EntityType="Self.CotizacionesItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CotizacionesOld" EntityType="Self.CotizacionesOld" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CotizacionesOld2" EntityType="Self.CotizacionesOld2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CuentasPorCobrar" EntityType="Self.CuentasPorCobrar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CuentasPorPagar" EntityType="Self.CuentasPorPagar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Deudas" EntityType="Self.Deudas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DeudasNew" EntityType="Self.DeudasNew" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EstadoArticulo" EntityType="Self.EstadoArticulo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EstadosArticulos" EntityType="Self.EstadosArticulos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EstadosInventario" EntityType="Self.EstadosInventario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExportarCompras" EntityType="Self.ExportarCompras" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FacturaItems" EntityType="Self.FacturaItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Facturas" EntityType="Self.Facturas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FacturasOld" EntityType="Self.FacturasOld" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FamiliaProducto" EntityType="Self.FamiliaProducto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FuentesContables" EntityType="Self.FuentesContables" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HistorialEstados" EntityType="Self.HistorialEstados" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Inventario" EntityType="Self.Inventario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="InventarioOld" EntityType="Self.InventarioOld" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Monedas" EntityType="Self.Monedas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NCF" EntityType="Self.NCF" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotaCredito" EntityType="Self.NotaCredito" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotaCreditoItems" EntityType="Self.NotaCreditoItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotaCreditoItemsOld" EntityType="Self.NotaCreditoItemsOld" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotaCreditoOld" EntityType="Self.NotaCreditoOld" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotaDebito" EntityType="Self.NotaDebito" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotaDebitoItems" EntityType="Self.NotaDebitoItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proveedores" EntityType="Self.Proveedores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RegistroActividades" EntityType="Self.RegistroActividades" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RegistroProducto" EntityType="Self.RegistroProducto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RegistroProductoResp" EntityType="Self.RegistroProductoResp" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Registros" EntityType="Self.Registros" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ReporteDeCaja" EntityType="Self.ReporteDeCaja" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RpInventario" EntityType="Self.RpInventario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sucursales" EntityType="Self.Sucursales" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TasaDias" EntityType="Self.TasaDias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TransAutomaticas" EntityType="Self.TransAutomaticas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vehiculos" EntityType="Self.Vehiculos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vendedores" EntityType="Self.Vendedores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Servicios" EntityType="Self.Servicios" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Servicios].[ServicioID] AS [ServicioID], 
+    [Servicios].[Descripcion] AS [Descripcion], 
+    [Servicios].[Costo] AS [Costo], 
+    [Servicios].[Detalle] AS [Detalle]
+    FROM [dbo].[Servicios] AS [Servicios]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="View_Cuentas" EntityType="Self.View_Cuentas" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [View_Cuentas].[NoCuenta] AS [NoCuenta], 
+    [View_Cuentas].[Descripcion] AS [Descripcion], 
+    [View_Cuentas].[Monto] AS [Monto], 
+    [View_Cuentas].[TipoCta] AS [TipoCta], 
+    [View_Cuentas].[Clasificacion] AS [Clasificacion], 
+    [View_Cuentas].[Id] AS [Id], 
+    [View_Cuentas].[Activo] AS [Activo], 
+    [View_Cuentas].[Posicion] AS [Posicion], 
+    [View_Cuentas].[ClasificacionId] AS [ClasificacionId], 
+    [View_Cuentas].[Registro] AS [Registro]
+    FROM [dbo].[View_Cuentas] AS [View_Cuentas]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="View_FacturaItemStatus" EntityType="Self.View_FacturaItemStatus" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [View_FacturaItemStatus].[ItemID] AS [ItemID], 
+    [View_FacturaItemStatus].[Cantidad] AS [Cantidad], 
+    [View_FacturaItemStatus].[Descripcion] AS [Descripcion], 
+    [View_FacturaItemStatus].[Precio] AS [Precio], 
+    [View_FacturaItemStatus].[Descuento] AS [Descuento], 
+    [View_FacturaItemStatus].[Subtotal] AS [Subtotal], 
+    [View_FacturaItemStatus].[Codigo] AS [Codigo], 
+    [View_FacturaItemStatus].[FacturaID] AS [FacturaID], 
+    [View_FacturaItemStatus].[ProductoID] AS [ProductoID], 
+    [View_FacturaItemStatus].[CantAlmacen] AS [CantAlmacen], 
+    [View_FacturaItemStatus].[Eliminada] AS [Eliminada], 
+    [View_FacturaItemStatus].[Costo] AS [Costo], 
+    [View_FacturaItemStatus].[Cotizacion] AS [Cotizacion], 
+    [View_FacturaItemStatus].[Expiraciones] AS [Expiraciones], 
+    [View_FacturaItemStatus].[Itbis] AS [Itbis], 
+    [View_FacturaItemStatus].[Monto] AS [Monto], 
+    [View_FacturaItemStatus].[Categoria] AS [Categoria], 
+    [View_FacturaItemStatus].[Prepado] AS [Prepado], 
+    [View_FacturaItemStatus].[CategoriaID] AS [CategoriaID], 
+    [View_FacturaItemStatus].[Cliente] AS [Cliente], 
+    [View_FacturaItemStatus].[Direccion] AS [Direccion]
+    FROM [dbo].[View_FacturaItemStatus] AS [View_FacturaItemStatus]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ViewAsientos" EntityType="Self.ViewAsientos" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ViewAsientos].[Fecha] AS [Fecha], 
+    [ViewAsientos].[Referencia] AS [Referencia], 
+    [ViewAsientos].[Id] AS [Id], 
+    [ViewAsientos].[Comprobante] AS [Comprobante], 
+    [ViewAsientos].[TotalDebito] AS [TotalDebito], 
+    [ViewAsientos].[TotalCredito] AS [TotalCredito], 
+    [ViewAsientos].[Cuenta] AS [Cuenta], 
+    [ViewAsientos].[Comentario] AS [Comentario], 
+    [ViewAsientos].[Debito] AS [Debito], 
+    [ViewAsientos].[Credito] AS [Credito], 
+    [ViewAsientos].[Rnc] AS [Rnc], 
+    [ViewAsientos].[DescripcionCta] AS [DescripcionCta], 
+    [ViewAsientos].[Eliminado] AS [Eliminado]
+    FROM [dbo].[ViewAsientos] AS [ViewAsientos]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ViewHistoricoEstados" EntityType="Self.ViewHistoricoEstados" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ViewHistoricoEstados].[EstadoArticuloID] AS [EstadoArticuloID], 
+    [ViewHistoricoEstados].[FacturaID] AS [FacturaID], 
+    [ViewHistoricoEstados].[Cliente] AS [Cliente], 
+    [ViewHistoricoEstados].[Fecha] AS [Fecha], 
+    [ViewHistoricoEstados].[ClienteID] AS [ClienteID], 
+    [ViewHistoricoEstados].[Descripcion] AS [Descripcion], 
+    [ViewHistoricoEstados].[EstadoId] AS [EstadoId], 
+    [ViewHistoricoEstados].[ProductoID] AS [ProductoID]
+    FROM [dbo].[ViewHistoricoEstados] AS [ViewHistoricoEstados]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vwTasasDias" EntityType="Self.vwTasasDias" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vwTasasDias].[TasaDiaId] AS [TasaDiaId], 
+    [vwTasasDias].[Valor] AS [Valor], 
+    [vwTasasDias].[Fecha] AS [Fecha], 
+    [vwTasasDias].[MonedaId] AS [MonedaId], 
+    [vwTasasDias].[Simbolo] AS [Simbolo], 
+    [vwTasasDias].[Descripcion] AS [Descripcion], 
+    [vwTasasDias].[Eliminada] AS [Eliminada]
+    FROM [dbo].[vwTasasDias] AS [vwTasasDias]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

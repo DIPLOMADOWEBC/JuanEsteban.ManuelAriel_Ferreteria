@@ -1,0 +1,43 @@
+﻿@model IEnumerable<WebFacturaMvc.Models.CategoriasProductos>
+
+@{
+    ViewBag.Title = "Lista de Categoria";
+}
+
+@{
+    if (Session["IsLog"] == null)
+    {
+        Response.Redirect("~/Auth/Index");
+    }
+
+
+}
+<h2 class="text-center text-success">Listado de Categorias</h2>
+<div class="well well-sm"><a class="btn btn-primary" @Html.ActionLink("Nuevo", "Create")</a></div>
+<table class="table table-hover table-striped">
+    <thead>
+        <tr class="bg-primary">
+            <th>@Html.DisplayNameFor(model => model.CategoriaID)</th>
+            <th>@Html.DisplayNameFor(model => model.Descripcion)</th>
+            <th>@Html.DisplayNameFor(model => model.Detalle)</th>
+            <th colspan="3">Operaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.CategoriaID)</td>
+                <td>@Html.DisplayFor(modelItem => item.Descripcion)</td>
+                <td>@Html.DisplayFor(modelItem => item.Detalle)</td>
+
+                <td><a class="btn btn-success" href="@Url.Action("Detalle", "CategoriaERP", new { id = item.CategoriaID })"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+                <td><a class="btn btn-info" href="@Url.Action("Update", "CategoriaERP", new { id = item.CategoriaID })"><span class="fa fa-edit"></span></a></td>
+                <td><a class="btn btn-danger" href="@Url.Action("Detalle", "CategoriaERP", new { id = item.CategoriaID })"><span class="fa fa-book"></span></a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="text-primary text-danger text-center">
+    @ViewBag.MensajeError;
+</div>

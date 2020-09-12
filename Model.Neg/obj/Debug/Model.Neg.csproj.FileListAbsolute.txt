@@ -1,0 +1,100 @@
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Neg\bin\Debug\Model.Neg.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Neg\bin\Debug\Model.Neg.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Neg\bin\Debug\Model.Dao.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Neg\bin\Debug\Model.Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Neg\bin\Debug\Model.Dao.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Neg\bin\Debug\Model.Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Neg\obj\Debug\Model.Neg.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Neg\obj\Debug\Model.Neg.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Neg\obj\Debug\Model.Neg.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Neg\bin\Debug\Model.Neg.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Neg\bin\Debug\Model.Neg.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Neg\bin\Debug\Model.Dao.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Neg\bin\Debug\Model.Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Neg\bin\Debug\Model.Dao.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Neg\bin\Debug\Model.Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Neg\obj\Debug\Model.Neg.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Neg\obj\Debug\Model.Neg.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Neg\obj\Debug\Model.Neg.pdb
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Neg\bin\Debug\Model.Neg.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Neg\bin\Debug\Model.Neg.pdb
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Neg\bin\Debug\Model.Dao.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Neg\bin\Debug\Model.Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Neg\bin\Debug\Model.Dao.pdb
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Neg\bin\Debug\Model.Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Neg\obj\Debug\Model.Neg.csprojAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Neg\obj\Debug\Model.Neg.csproj.CoreCompileInputs.cache
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Neg\obj\Debug\Model.Neg.csproj.CopyComplete
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Neg\obj\Debug\Model.Neg.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Neg\obj\Debug\Model.Neg.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Neg\bin\Debug\Model.Neg.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Neg\bin\Debug\Model.Neg.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Neg\bin\Debug\Model.Dao.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Neg\bin\Debug\Model.Entity.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Neg\bin\Debug\Model.Dao.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Neg\bin\Debug\Model.Entity.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Neg\obj\Debug\Model.Neg.csprojResolveAssemblyReference.cache
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Neg\obj\Debug\Model.Neg.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Neg\obj\Debug\Model.Neg.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Neg\bin\Debug\EntityFramework.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Neg\bin\Debug\EntityFramework.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\Model.Neg.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\Model.Neg.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\Model.Dao.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\Model.Entity.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\EntityFramework.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\Model.Dao.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\Model.Entity.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\EntityFramework.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\obj\Debug\Model.Neg.csprojResolveAssemblyReference.cache
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\obj\Debug\Model.Neg.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\obj\Debug\Model.Neg.pdb
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\Model.Neg.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\Model.Neg.pdb
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\Model.Dao.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\Model.Entity.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\EntityFramework.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\Model.Dao.pdb
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\Model.Entity.pdb
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\bin\Debug\EntityFramework.xml
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\obj\Debug\Model.Neg.csprojResolveAssemblyReference.cache
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\obj\Debug\Model.Neg.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Neg\obj\Debug\Model.Neg.pdb
+C:\Diplomado\Model.Neg\bin\Debug\Model.Neg.dll
+C:\Diplomado\Model.Neg\bin\Debug\Model.Neg.pdb
+C:\Diplomado\Model.Neg\bin\Debug\Model.Dao.dll
+C:\Diplomado\Model.Neg\bin\Debug\Model.Entity.dll
+C:\Diplomado\Model.Neg\bin\Debug\Model.Dao.pdb
+C:\Diplomado\Model.Neg\bin\Debug\Model.Entity.pdb
+C:\Diplomado\Model.Neg\obj\Debug\Model.Neg.dll
+C:\Diplomado\Model.Neg\obj\Debug\Model.Neg.pdb
+C:\Diplomado\Model.Neg\bin\Debug\Model.Dao.dll.config
+C:\Diplomado\Model.Neg\obj\Debug\Model.Neg.csprojAssemblyReference.cache
+C:\Diplomado\Model.Neg\obj\Debug\Model.Neg.csproj.CoreCompileInputs.cache
+C:\Diplomado\Model.Neg\obj\Debug\Model.Neg.csproj.CopyComplete
+C:\Users\USER\Documents\ferreteria\Model.Neg\bin\Debug\Model.Neg.dll
+C:\Users\USER\Documents\ferreteria\Model.Neg\bin\Debug\Model.Neg.pdb
+C:\Users\USER\Documents\ferreteria\Model.Neg\bin\Debug\Model.Dao.dll
+C:\Users\USER\Documents\ferreteria\Model.Neg\bin\Debug\Model.Entity.dll
+C:\Users\USER\Documents\ferreteria\Model.Neg\bin\Debug\Model.Dao.pdb
+C:\Users\USER\Documents\ferreteria\Model.Neg\bin\Debug\Model.Dao.dll.config
+C:\Users\USER\Documents\ferreteria\Model.Neg\bin\Debug\Model.Entity.pdb
+C:\Users\USER\Documents\ferreteria\Model.Neg\obj\Debug\Model.Neg.csprojAssemblyReference.cache
+C:\Users\USER\Documents\ferreteria\Model.Neg\obj\Debug\Model.Neg.csproj.CopyComplete
+C:\Users\USER\Documents\ferreteria\Model.Neg\obj\Debug\Model.Neg.dll
+C:\Users\USER\Documents\ferreteria\Model.Neg\obj\Debug\Model.Neg.pdb
+C:\Users\USER\Documents\ferreteria\Model.Neg\bin\Debug\Model.Entity.dll.config
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\bin\Debug\Model.Neg.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\bin\Debug\Model.Neg.pdb
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\bin\Debug\Model.Dao.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\bin\Debug\Model.Entity.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\bin\Debug\Model.Dao.pdb
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\bin\Debug\Model.Dao.dll.config
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\bin\Debug\Model.Entity.pdb
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\bin\Debug\Model.Entity.dll.config
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\obj\Debug\Model.Neg.csprojAssemblyReference.cache
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\obj\Debug\Model.Neg.csproj.CoreCompileInputs.cache
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\obj\Debug\Model.Neg.csproj.CopyComplete
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\obj\Debug\Model.Neg.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Neg\obj\Debug\Model.Neg.pdb
+C:\Diplomado\Model.Neg\bin\Debug\Model.Entity.dll.config

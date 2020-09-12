@@ -1,0 +1,1220 @@
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\roslyn\csc.exe
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\roslyn\vbc.exe
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\WebFacturaMvc.dll.config
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\WebFacturaMvc.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\WebFacturaMvc.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\Model.Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\Model.Neg.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\System.Web.Helpers.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\System.Web.Mvc.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\System.Web.Razor.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\System.Web.Webpages.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\System.Web.Webpages.Razor.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\Model.Dao.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\Microsoft.SqlServer.Types.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\Model.Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\Model.Neg.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\System.Web.Razor.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\System.Web.Webpages.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\System.Web.Webpages.Razor.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\System.Web.Helpers.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\System.Web.Mvc.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\Model.Dao.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\es\System.Web.Razor.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\obj\Debug\WebFacturaMvc.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\obj\Debug\WebFacturaMvc.Traducciones.textos.resources
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.GenerateResource.Cache
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\obj\Debug\RdlCompile.cache
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\obj\Debug\RdlCompile.compiled
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\obj\Debug\WebFacturaMvc.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\WebFacturaMvc\obj\Debug\WebFacturaMvc.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\csc.exe
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\vbc.exe
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\WebFacturaMvc.dll.config
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\WebFacturaMvc.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\WebFacturaMvc.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Model.Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Model.Neg.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Helpers.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Mvc.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Razor.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Webpages.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Webpages.Razor.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Model.Dao.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.SqlServer.Types.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Model.Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Model.Neg.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Razor.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Webpages.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Webpages.Razor.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Helpers.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Mvc.xml
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Model.Dao.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\System.Web.Razor.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\WebFacturaMvc.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\WebFacturaMvc.Traducciones.textos.resources
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.GenerateResource.Cache
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\RdlCompile.cache
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\RdlCompile.compiled
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\WebFacturaMvc.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\WebFacturaMvc.pdb
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\csc.exe
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\vbc.exe
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\WebFacturaMvc.dll.config
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\WebFacturaMvc.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\WebFacturaMvc.pdb
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.SqlServer.Types.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Model.Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Model.Neg.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Helpers.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Mvc.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Razor.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Webpages.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Webpages.Razor.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\EnvDTE.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Model.Dao.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\stdole.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\EnvDTE80.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\VSLangProj.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\VSLangProj80.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Newtonsoft.Json.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.MSXML.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\VSLangProj2.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Collections.Immutable.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Model.Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Model.Neg.pdb
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Razor.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Webpages.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Webpages.Razor.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Helpers.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\System.Web.Mvc.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Model.Dao.pdb
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\System.Web.Razor.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\bin\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\WebFacturaMvc.csprojAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\WebFacturaMvc.Traducciones.textos.resources
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.GenerateResource.cache
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.CoreCompileInputs.cache
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.CopyComplete
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\WebFacturaMvc.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\WebFacturaMvc\obj\Debug\WebFacturaMvc.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\obj\Debug\WebFacturaMvc.csprojResolveAssemblyReference.cache
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\obj\Debug\WebFacturaMvc.Traducciones.textos.resources
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.GenerateResource.Cache
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\obj\Debug\RdlCompile.cache
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\obj\Debug\RdlCompile.compiled
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\roslyn\csc.exe
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\roslyn\vbc.exe
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\WebFacturaMvc.dll.config
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\WebFacturaMvc.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\WebFacturaMvc.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.SqlServer.Types.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Model.Entity.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Model.Neg.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\System.Web.Helpers.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\System.Web.Mvc.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\System.Web.Razor.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\System.Web.Webpages.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\System.Web.Webpages.Razor.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Model.Dao.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\EnvDTE.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\stdole.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\EnvDTE80.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\VSLangProj.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\VSLangProj80.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Newtonsoft.Json.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.MSXML.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\VSLangProj2.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Model.Neg.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Model.Entity.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\System.Web.Razor.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\System.Web.Webpages.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\System.Web.Webpages.Razor.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\System.Web.Helpers.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\System.Web.Mvc.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\Model.Dao.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\System.Web.Razor.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\System.Web.Webpages.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\es\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\obj\Debug\WebFacturaMvc.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\obj\Debug\WebFacturaMvc.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\EntityFramework.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\EntityFramework.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\EntityFramework.SqlServer.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\WebFacturaMvc\bin\EntityFramework.SqlServer.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\csc.exe
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\vbc.exe
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\WebFacturaMvc.dll.config
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\WebFacturaMvc.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\WebFacturaMvc.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\EntityFramework.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\EntityFramework.SqlServer.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.SqlServer.Types.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Model.Entity.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Model.Neg.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Helpers.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Mvc.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Razor.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Webpages.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Webpages.Razor.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Model.Dao.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\EnvDTE.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\stdole.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\EnvDTE80.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\VSLangProj.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\VSLangProj80.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Newtonsoft.Json.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.MSXML.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\VSLangProj2.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Model.Neg.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\EntityFramework.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\EntityFramework.SqlServer.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Model.Entity.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Razor.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Webpages.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Webpages.Razor.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Helpers.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Mvc.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Model.Dao.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\System.Web.Razor.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\System.Web.Webpages.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\WebFacturaMvc.csprojResolveAssemblyReference.cache
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\WebFacturaMvc.Traducciones.textos.resources
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.GenerateResource.Cache
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\RdlCompile.cache
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\RdlCompile.compiled
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\WebFacturaMvc.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\WebFacturaMvc.pdb
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\SqlServerTypes\x64\msvcr120.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\SqlServerTypes\x86\msvcr120.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\csc.exe
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\System.Collections.Immutable.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\System.Reflection.Metadata.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\vbc.exe
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe.config
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\WebFacturaMvc.dll.config
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\WebFacturaMvc.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\WebFacturaMvc.pdb
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\EntityFramework.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\EntityFramework.SqlServer.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.Common.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.Design.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.WebDesign.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.WebForms.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.ReportViewer.WinForms.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.SqlServer.Types.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.Web.Infrastructure.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Model.Entity.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Model.Neg.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Helpers.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Mvc.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Razor.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Webpages.Deployment.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Webpages.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Webpages.Razor.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Model.Dao.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\EnvDTE.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\stdole.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.VisualStudio.VSHelp.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\EnvDTE80.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\VSLangProj.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\VSLangProj80.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Newtonsoft.Json.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.VisualStudio.GraphModel.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.MSXML.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\VSLangProj2.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Model.Neg.pdb
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\EntityFramework.xml
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\EntityFramework.SqlServer.xml
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Model.Entity.pdb
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Razor.xml
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Webpages.xml
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Webpages.Deployment.xml
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Webpages.Razor.xml
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Helpers.xml
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\System.Web.Mvc.xml
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\Model.Dao.pdb
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Common.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Common.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Common.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Design.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Design.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Design.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\System.Web.Razor.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\System.Web.Webpages.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\System.Web.Webpages.Deployment.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\System.Web.Webpages.Razor.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\System.Web.Helpers.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\System.Web.Mvc.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\bin\es\Microsoft.VisualStudio.GraphModel.resources.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\WebFacturaMvc.csprojResolveAssemblyReference.cache
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\WebFacturaMvc.Traducciones.textos.resources
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.GenerateResource.Cache
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\RdlCompile.cache
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\RdlCompile.compiled
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\WebFacturaMvc.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\WebFacturaMvc\obj\Debug\WebFacturaMvc.pdb
+C:\Diplomado\WebFacturaMvc\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Diplomado\WebFacturaMvc\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Diplomado\WebFacturaMvc\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Diplomado\WebFacturaMvc\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Diplomado\WebFacturaMvc\bin\roslyn\csc.exe
+C:\Diplomado\WebFacturaMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Diplomado\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Diplomado\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Diplomado\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Diplomado\WebFacturaMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Diplomado\WebFacturaMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Diplomado\WebFacturaMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Diplomado\WebFacturaMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Diplomado\WebFacturaMvc\bin\roslyn\vbc.exe
+C:\Diplomado\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe
+C:\Diplomado\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Diplomado\WebFacturaMvc\bin\WebFacturaMvc.dll.config
+C:\Diplomado\WebFacturaMvc\bin\WebFacturaMvc.dll
+C:\Diplomado\WebFacturaMvc\bin\WebFacturaMvc.pdb
+C:\Diplomado\WebFacturaMvc\bin\EntityFramework.dll
+C:\Diplomado\WebFacturaMvc\bin\EntityFramework.SqlServer.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.ReportViewer.Design.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.SqlServer.Types.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Diplomado\WebFacturaMvc\bin\Model.Entity.dll
+C:\Diplomado\WebFacturaMvc\bin\Model.Neg.dll
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Helpers.dll
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Mvc.dll
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Razor.dll
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Webpages.dll
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Webpages.Razor.dll
+C:\Diplomado\WebFacturaMvc\bin\Model.Dao.dll
+C:\Diplomado\WebFacturaMvc\bin\EnvDTE.dll
+C:\Diplomado\WebFacturaMvc\bin\stdole.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Diplomado\WebFacturaMvc\bin\EnvDTE80.dll
+C:\Diplomado\WebFacturaMvc\bin\VSLangProj.dll
+C:\Diplomado\WebFacturaMvc\bin\VSLangProj80.dll
+C:\Diplomado\WebFacturaMvc\bin\Newtonsoft.Json.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.MSXML.dll
+C:\Diplomado\WebFacturaMvc\bin\VSLangProj2.dll
+C:\Diplomado\WebFacturaMvc\bin\Model.Neg.pdb
+C:\Diplomado\WebFacturaMvc\bin\EntityFramework.xml
+C:\Diplomado\WebFacturaMvc\bin\EntityFramework.SqlServer.xml
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Diplomado\WebFacturaMvc\bin\Model.Entity.pdb
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Razor.xml
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Webpages.xml
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Webpages.Razor.xml
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Helpers.xml
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Mvc.xml
+C:\Diplomado\WebFacturaMvc\bin\Model.Dao.pdb
+C:\Diplomado\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\System.Web.Razor.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\System.Web.Webpages.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\System.Web.Helpers.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\System.Web.Mvc.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Diplomado\WebFacturaMvc\obj\Debug\WebFacturaMvc.Traducciones.textos.resources
+C:\Diplomado\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.GenerateResource.Cache
+C:\Diplomado\WebFacturaMvc\obj\Debug\WebFacturaMvc.dll
+C:\Diplomado\WebFacturaMvc\obj\Debug\WebFacturaMvc.pdb
+C:\Diplomado\WebFacturaMvc\obj\Debug\WebFacturaMvc.csprojAssemblyReference.cache
+C:\Diplomado\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.CoreCompileInputs.cache
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Diplomado\WebFacturaMvc\bin\Model.Dao.dll.config
+C:\Diplomado\WebFacturaMvc\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Diplomado\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Diplomado\WebFacturaMvc\bin\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Diplomado\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.CopyComplete
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\roslyn\csc.exe
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\roslyn\vbc.exe
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\WebFacturaMvc.dll.config
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\WebFacturaMvc.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\WebFacturaMvc.pdb
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\EntityFramework.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\EntityFramework.SqlServer.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.SqlServer.Types.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Model.Entity.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Model.Neg.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Helpers.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Mvc.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Razor.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Webpages.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Webpages.Razor.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Model.Dao.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\EnvDTE.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\stdole.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\EnvDTE80.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\VSLangProj.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\VSLangProj80.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Newtonsoft.Json.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.MSXML.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\VSLangProj2.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Collections.Immutable.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Model.Neg.pdb
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\EntityFramework.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\EntityFramework.SqlServer.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Model.Entity.pdb
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Razor.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Webpages.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Webpages.Razor.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Helpers.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Mvc.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Model.Dao.pdb
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Model.Dao.dll.config
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Microsoft.VisualStudio.WCFReference.Interop.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\es\System.Web.Razor.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\es\System.Web.Webpages.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\es\System.Web.Helpers.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\es\System.Web.Mvc.resources.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\obj\Debug\WebFacturaMvc.csprojAssemblyReference.cache
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\obj\Debug\WebFacturaMvc.Traducciones.textos.resources
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.GenerateResource.cache
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.CopyComplete
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\obj\Debug\WebFacturaMvc.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\obj\Debug\WebFacturaMvc.pdb
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Net.Http.Formatting.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Http.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Http.WebHost.dll
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Newtonsoft.Json.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Net.Http.Formatting.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Http.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\System.Web.Http.WebHost.xml
+C:\Users\USER\Documents\ferreteria\WebFacturaMvc\bin\Model.Entity.dll.config
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\SqlServerTypes\x64\msvcr120.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\SqlServerTypes\x86\msvcr120.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\roslyn\csc.exe
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\roslyn\System.Collections.Immutable.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\roslyn\System.Reflection.Metadata.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\roslyn\vbc.exe
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\roslyn\VBCSCompiler.exe.config
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\WebFacturaMvc.dll.config
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\WebFacturaMvc.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\WebFacturaMvc.pdb
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\EntityFramework.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\EntityFramework.SqlServer.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.ReportViewer.Common.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.ReportViewer.Design.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.ReportViewer.WebDesign.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.ReportViewer.WebForms.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.ReportViewer.WinForms.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.SqlServer.Types.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.Web.Infrastructure.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Model.Entity.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Model.Neg.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Newtonsoft.Json.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Net.Http.Formatting.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Helpers.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Http.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Http.WebHost.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Mvc.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Razor.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Webpages.Deployment.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Webpages.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Webpages.Razor.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Model.Dao.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\EnvDTE.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\stdole.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.VisualStudio.OLE.Interop.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.MSXML.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Model.Neg.pdb
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\EntityFramework.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\EntityFramework.SqlServer.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Model.Entity.pdb
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Model.Entity.dll.config
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Newtonsoft.Json.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Net.Http.Formatting.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Http.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Http.WebHost.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Razor.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Webpages.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Webpages.Deployment.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Webpages.Razor.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Helpers.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\System.Web.Mvc.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Model.Dao.pdb
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\Model.Dao.dll.config
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Common.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Common.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Common.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\de\Microsoft.ReportViewer.Design.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\es\Microsoft.ReportViewer.Design.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\it\Microsoft.ReportViewer.Design.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.WebDesign.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.WebForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.WebForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\es\System.Web.Razor.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\es\System.Web.Webpages.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\es\System.Web.Helpers.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\bin\es\System.Web.Mvc.resources.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\obj\Debug\WebFacturaMvc.csprojAssemblyReference.cache
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\obj\Debug\WebFacturaMvc.Traducciones.textos.resources
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.GenerateResource.cache
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.CoreCompileInputs.cache
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\obj\Debug\WebFacturaMvc.csproj.CopyComplete
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\obj\Debug\WebFacturaMvc.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\WebFacturaMvc\obj\Debug\WebFacturaMvc.pdb
+C:\Diplomado\WebFacturaMvc\bin\System.Net.Http.Formatting.dll
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Http.dll
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Http.WebHost.dll
+C:\Diplomado\WebFacturaMvc\bin\Model.Entity.dll.config
+C:\Diplomado\WebFacturaMvc\bin\Newtonsoft.Json.xml
+C:\Diplomado\WebFacturaMvc\bin\System.Net.Http.Formatting.xml
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Http.xml
+C:\Diplomado\WebFacturaMvc\bin\System.Web.Http.WebHost.xml

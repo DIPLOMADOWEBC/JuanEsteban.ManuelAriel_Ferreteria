@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\jgonzalez\Documents\WEB</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Assets/bootstrap/css/bootstrap.css">
+      <publishTime>02/12/2016 23:14:47</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/css/bootstrap.min.css">
+      <publishTime>02/12/2016 23:14:48</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/12/2016 23:14:52</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/12/2016 23:14:52</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/12/2016 23:14:52</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/12/2016 23:14:52</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>02/12/2016 23:14:52</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/js/bootstrap.js">
+      <publishTime>02/12/2016 23:14:52</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/js/bootstrap.min.js">
+      <publishTime>02/12/2016 23:14:52</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/css/font-awesome.css">
+      <publishTime>02/12/2016 23:14:52</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/css/font-awesome.min.css">
+      <publishTime>02/12/2016 23:14:52</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>02/12/2016 23:14:53</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>02/12/2016 23:14:53</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>02/12/2016 23:14:53</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>02/12/2016 23:14:53</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>02/12/2016 23:14:53</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>02/12/2016 23:14:53</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/animated.less">
+      <publishTime>02/12/2016 23:14:53</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/bordered-pulled.less">
+      <publishTime>02/12/2016 23:14:53</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/core.less">
+      <publishTime>02/12/2016 23:14:53</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/fixed-width.less">
+      <publishTime>02/12/2016 23:14:53</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/font-awesome.less">
+      <publishTime>02/12/2016 23:14:53</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/icons.less">
+      <publishTime>02/12/2016 23:14:53</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/larger.less">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/list.less">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/mixins.less">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/path.less">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/rotated-flipped.less">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/screen-reader.less">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/stacked.less">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/variables.less">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/font-awesome.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_animated.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_core.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_fixed-width.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_icons.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_larger.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_list.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_mixins.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_path.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_screen-reader.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_stacked.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_variables.scss">
+      <publishTime>02/12/2016 23:14:54</publishTime>
+    </File>
+    <File Include="Assets/jquery/jquery.js">
+      <publishTime>02/12/2016 23:14:55</publishTime>
+    </File>
+    <File Include="Assets/jquery/jquery.min.js">
+      <publishTime>02/12/2016 23:15:39</publishTime>
+    </File>
+    <File Include="Assets/metisMenu/metisMenu.css">
+      <publishTime>06/12/2016 17:24:12</publishTime>
+    </File>
+    <File Include="Assets/metisMenu/metisMenu.js">
+      <publishTime>06/12/2016 17:24:13</publishTime>
+    </File>
+    <File Include="Assets/metisMenu/metisMenu.min.css">
+      <publishTime>06/12/2016 17:24:13</publishTime>
+    </File>
+    <File Include="Assets/metisMenu/metisMenu.min.js">
+      <publishTime>06/12/2016 17:24:13</publishTime>
+    </File>
+    <File Include="Assets/morrisjs/morris.css">
+      <publishTime>06/12/2016 17:31:59</publishTime>
+    </File>
+    <File Include="Assets/morrisjs/morris.js">
+      <publishTime>06/12/2016 17:31:59</publishTime>
+    </File>
+    <File Include="Assets/morrisjs/morris.min.js">
+      <publishTime>06/12/2016 17:31:59</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>04/11/2017 20:08:18</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>04/11/2017 20:08:34</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>04/11/2017 20:08:32</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/EnvDTE.dll">
+      <publishTime>10/22/2009 19:51:18</publishTime>
+    </File>
+    <File Include="bin/EnvDTE80.dll">
+      <publishTime>10/22/2009 19:51:18</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>04/11/2017 20:08:16</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>04/11/2017 20:08:18</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>04/11/2017 20:08:34</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>04/11/2017 20:08:32</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.VisualStudio.GraphModel.resources.dll">
+      <publishTime>07/07/2015 01:26:06</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Helpers.resources.dll">
+      <publishTime>01/28/2015 04:04:36</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Mvc.resources.dll">
+      <publishTime>01/28/2015 04:02:24</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Razor.resources.dll">
+      <publishTime>01/28/2015 04:02:36</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Webpages.Deployment.resources.dll">
+      <publishTime>01/28/2015 04:04:36</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Webpages.Razor.resources.dll">
+      <publishTime>01/28/2015 04:04:36</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Webpages.resources.dll">
+      <publishTime>01/28/2015 04:04:36</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>04/11/2017 20:08:16</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>04/11/2017 20:08:18</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>04/11/2017 20:08:34</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>04/11/2017 20:08:32</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>04/11/2017 20:08:16</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>04/11/2017 20:08:18</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>04/11/2017 20:08:34</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>04/11/2017 20:08:32</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>04/11/2017 20:08:16</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>04/11/2017 20:08:18</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>04/11/2017 20:08:34</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>04/11/2017 20:08:32</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>04/11/2017 20:08:16</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>04/11/2017 20:08:18</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>04/11/2017 20:08:34</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>04/11/2017 20:08:32</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.MSXML.dll">
+      <publishTime>09/20/2015 17:20:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Common.dll">
+      <publishTime>04/11/2017 20:08:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.DataVisualization.dll">
+      <publishTime>04/11/2017 20:08:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Design.dll">
+      <publishTime>04/11/2017 20:08:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.ProcessingObjectModel.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebDesign.dll">
+      <publishTime>04/11/2017 20:08:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebForms.dll">
+      <publishTime>04/11/2017 20:08:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WinForms.dll">
+      <publishTime>04/11/2017 20:08:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.Types.dll">
+      <publishTime>10/12/2016 15:26:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.ComponentModelHost.dll">
+      <publishTime>06/20/2016 14:45:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.GraphModel.dll">
+      <publishTime>06/20/2016 14:45:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.TemplateWizardInterface.dll">
+      <publishTime>05/30/2015 12:09:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.VSHelp.dll">
+      <publishTime>06/20/2016 14:45:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 15:23:58</publishTime>
+    </File>
+    <File Include="bin/Model.Dao.dll">
+      <publishTime>03/14/2019 12:00:21</publishTime>
+    </File>
+    <File Include="bin/Model.Entity.dll">
+      <publishTime>03/13/2019 20:01:37</publishTime>
+    </File>
+    <File Include="bin/Model.Neg.dll">
+      <publishTime>03/14/2019 12:00:22</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>01/28/2016 14:22:24</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>04/11/2017 20:08:16</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>04/11/2017 20:08:20</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>04/11/2017 20:08:34</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>04/11/2017 20:08:32</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>04/11/2017 20:08:16</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>04/11/2017 20:08:20</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>04/11/2017 20:08:34</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>04/11/2017 20:08:32</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x64/msvcr120.dll">
+      <publishTime>05/12/2017 22:34:53</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x64/SqlServerSpatial140.dll">
+      <publishTime>05/12/2017 22:34:53</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x86/msvcr120.dll">
+      <publishTime>05/12/2017 22:34:53</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x86/SqlServerSpatial140.dll">
+      <publishTime>05/12/2017 22:34:53</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>07/07/2015 00:51:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/VSLangProj.dll">
+      <publishTime>03/18/2010 23:21:56</publishTime>
+    </File>
+    <File Include="bin/VSLangProj2.dll">
+      <publishTime>03/18/2010 23:21:56</publishTime>
+    </File>
+    <File Include="bin/VSLangProj80.dll">
+      <publishTime>10/22/2009 19:51:18</publishTime>
+    </File>
+    <File Include="bin/WebFacturaMvc.dll">
+      <publishTime>03/14/2019 12:00:30</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>04/11/2017 20:08:16</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>04/11/2017 20:08:20</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>04/11/2017 20:08:34</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>04/11/2017 20:08:32</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>04/11/2017 20:08:18</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>04/11/2017 20:08:20</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>04/11/2017 20:08:34</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>04/11/2017 20:08:32</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>04/11/2017 20:08:14</publishTime>
+    </File>
+    <File Include="Css/alertify.bootstrap.css">
+      <publishTime>12/16/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Css/alertify.core.css">
+      <publishTime>12/16/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Css/alertify.default.css">
+      <publishTime>12/16/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Css/sb-admin-2.css">
+      <publishTime>06/12/2016 20:13:27</publishTime>
+    </File>
+    <File Include="Css/sb-admin-2.min.css">
+      <publishTime>06/12/2016 17:27:12</publishTime>
+    </File>
+    <File Include="dbventasDataSet.xsc">
+      <publishTime>09/12/2016 11:04:36</publishTime>
+    </File>
+    <File Include="dbventasDataSet.xss">
+      <publishTime>09/12/2016 11:04:36</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/12/2016 19:08:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/12/2016 19:08:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/12/2016 19:08:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/12/2016 19:08:42</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/12/2016 15:31:07</publishTime>
+    </File>
+    <File Include="Js/alertify.js">
+      <publishTime>12/16/2016 11:03:11</publishTime>
+    </File>
+    <File Include="Js/alertify.min.js">
+      <publishTime>12/16/2016 11:02:59</publishTime>
+    </File>
+    <File Include="Js/Categoria.js">
+      <publishTime>11/12/2016 23:42:52</publishTime>
+    </File>
+    <File Include="Js/modernizr-2.6.2.js">
+      <publishTime>02/12/2016 23:28:44</publishTime>
+    </File>
+    <File Include="Js/sb-admin-2.js">
+      <publishTime>06/12/2016 17:37:41</publishTime>
+    </File>
+    <File Include="Js/sb-admin-2.min.js">
+      <publishTime>06/12/2016 17:37:41</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/12/2017 22:35:49</publishTime>
+    </File>
+    <File Include="Reportes/frmReporteFactura.aspx">
+      <publishTime>03/13/2019 19:51:26</publishTime>
+    </File>
+    <File Include="RPTDataset/dsPrincipal.xsc">
+      <publishTime>12/17/2016 09:40:55</publishTime>
+    </File>
+    <File Include="RPTDataset/dsPrincipal.xss">
+      <publishTime>12/17/2016 09:40:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>02/12/2016 19:08:42</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/12/2016 19:08:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>02/12/2016 19:08:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>02/12/2016 19:08:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>02/12/2016 19:08:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>11/12/2016 22:20:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>11/12/2016 22:20:41</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>02/12/2016 19:08:49</publishTime>
+    </File>
+    <File Include="SqlServerTypes/readme.htm">
+      <publishTime>05/12/2017 22:34:38</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x64/msvcr120.dll">
+      <publishTime>05/12/2017 22:34:53</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x64/SqlServerSpatial140.dll">
+      <publishTime>05/12/2017 22:34:53</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x86/msvcr120.dll">
+      <publishTime>05/12/2017 22:34:53</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x86/SqlServerSpatial140.dll">
+      <publishTime>05/12/2017 22:34:53</publishTime>
+    </File>
+    <File Include="Views/Categoria/Create.cshtml">
+      <publishTime>08/12/2016 18:19:13</publishTime>
+    </File>
+    <File Include="Views/Categoria/Delete.cshtml">
+      <publishTime>08/12/2016 18:21:04</publishTime>
+    </File>
+    <File Include="Views/Categoria/Find.cshtml">
+      <publishTime>12/22/2016 14:14:12</publishTime>
+    </File>
+    <File Include="Views/Categoria/Index.cshtml">
+      <publishTime>10/12/2016 12:23:09</publishTime>
+    </File>
+    <File Include="Views/Categoria/Update.cshtml">
+      <publishTime>08/12/2016 18:24:52</publishTime>
+    </File>
+    <File Include="Views/Cliente/BuscarClientes.cshtml">
+      <publishTime>12/22/2016 20:44:49</publishTime>
+    </File>
+    <File Include="Views/Cliente/Create.cshtml">
+      <publishTime>12/19/2016 03:24:58</publishTime>
+    </File>
+    <File Include="Views/Cliente/Delete.cshtml">
+      <publishTime>04/12/2016 10:04:42</publishTime>
+    </File>
+    <File Include="Views/Cliente/Eliminar.cshtml">
+      <publishTime>12/19/2016 03:46:22</publishTime>
+    </File>
+    <File Include="Views/Cliente/Find.cshtml">
+      <publishTime>04/12/2016 18:29:44</publishTime>
+    </File>
+    <File Include="Views/Cliente/Index.cshtml">
+      <publishTime>12/22/2016 20:49:55</publishTime>
+    </File>
+    <File Include="Views/Cliente/Update.cshtml">
+      <publishTime>12/19/2016 02:08:10</publishTime>
+    </File>
+    <File Include="Views/DetalleVenta/Eliminar.cshtml">
+      <publishTime>01/10/2017 12:27:06</publishTime>
+    </File>
+    <File Include="Views/DetalleVenta/Index.cshtml">
+      <publishTime>12/22/2016 20:49:55</publishTime>
+    </File>
+    <File Include="Views/Inicio/Index.cshtml">
+      <publishTime>12/22/2016 21:03:48</publishTime>
+    </File>
+    <File Include="Views/ModoPago/Create.cshtml">
+      <publishTime>09/12/2016 08:50:48</publishTime>
+    </File>
+    <File Include="Views/ModoPago/Delete.cshtml">
+      <publishTime>12/19/2016 03:46:22</publishTime>
+    </File>
+    <File Include="Views/ModoPago/Find.cshtml">
+      <publishTime>09/12/2016 08:53:01</publishTime>
+    </File>
+    <File Include="Views/ModoPago/Index.cshtml">
+      <publishTime>09/12/2016 09:46:32</publishTime>
+    </File>
+    <File Include="Views/ModoPago/Update.cshtml">
+      <publishTime>12/19/2016 03:46:22</publishTime>
+    </File>
+    <File Include="Views/Producto/BuscarProductos.cshtml">
+      <publishTime>11/12/2016 14:34:22</publishTime>
+    </File>
+    <File Include="Views/Producto/BuscarProductosPorCategoria.cshtml">
+      <publishTime>11/12/2016 00:00:38</publishTime>
+    </File>
+    <File Include="Views/Producto/Create.cshtml">
+      <publishTime>12/22/2016 14:47:57</publishTime>
+    </File>
+    <File Include="Views/Producto/Delete.cshtml">
+      <publishTime>12/19/2016 03:46:22</publishTime>
+    </File>
+    <File Include="Views/Producto/Find.cshtml">
+      <publishTime>08/12/2016 16:32:49</publishTime>
+    </File>
+    <File Include="Views/Producto/Index.cshtml">
+      <publishTime>12/22/2016 20:46:35</publishTime>
+    </File>
+    <File Include="Views/Producto/Update.cshtml">
+      <publishTime>12/22/2016 14:18:19</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutMy.cshtml">
+      <publishTime>12/22/2016 20:57:33</publishTime>
+    </File>
+    <File Include="Views/Vendedor/Create.cshtml">
+      <publishTime>12/19/2016 03:42:59</publishTime>
+    </File>
+    <File Include="Views/Vendedor/Delete.cshtml">
+      <publishTime>12/19/2016 03:46:22</publishTime>
+    </File>
+    <File Include="Views/Vendedor/Find.cshtml">
+      <publishTime>07/12/2016 08:28:19</publishTime>
+    </File>
+    <File Include="Views/Vendedor/Index.cshtml">
+      <publishTime>07/12/2016 08:45:01</publishTime>
+    </File>
+    <File Include="Views/Vendedor/Update.cshtml">
+      <publishTime>12/19/2016 03:46:22</publishTime>
+    </File>
+    <File Include="Views/Venta/DetallesVenta.cshtml">
+      <publishTime>12/22/2016 21:06:02</publishTime>
+    </File>
+    <File Include="Views/Venta/NuevaVenta.cshtml">
+      <publishTime>12/22/2016 13:33:54</publishTime>
+    </File>
+    <File Include="Views/Venta/ObtenerClientes.cshtml">
+      <publishTime>12/16/2016 16:47:26</publishTime>
+    </File>
+    <File Include="Views/Venta/ObtenerProductos.cshtml">
+      <publishTime>11/12/2016 14:53:35</publishTime>
+    </File>
+    <File Include="Views/Venta/PruebaJson.cshtml">
+      <publishTime>12/15/2016 13:05:43</publishTime>
+    </File>
+    <File Include="Views/Venta/ReporteVentas.cshtml">
+      <publishTime>12/22/2016 21:03:22</publishTime>
+    </File>
+    <File Include="Views/Venta/VentaFactura.cshtml">
+      <publishTime>12/22/2016 21:00:55</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>02/12/2016 15:31:07</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>06/12/2016 11:20:10</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/14/2019 12:00:31</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

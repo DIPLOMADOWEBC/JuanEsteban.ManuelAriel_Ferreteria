@@ -1,0 +1,41 @@
+﻿@model IEnumerable<WebFacturaMvc.Models.Usuarios>
+
+@{
+    //Layout = null;
+}
+
+@{ if (Session["IsLog"] == null)
+    {
+        Response.Redirect("~/Auth/Index");
+    } }
+
+
+
+<h2 class="text-center text-success">Listado de Usuarios</h2>
+<div class="well well-sm"><a class="btn btn-primary" @Html.ActionLink("Nuevo", "Create")</a></div>
+<table class="table table-hover table-striped">
+    <thead>
+        <tr class="bg-primary">
+            <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+            <th>@Html.DisplayNameFor(model => model.Contrasena)</th>
+            <th colspan="3">Operaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                <td>@Html.DisplayFor(modelItem => item.Contrasena)</td>
+                <td><a class="btn btn-success" href="@Url.Action("Details", "Usuarios", new { id = item.UsuarioID })"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+                <td><a class="btn btn-info" href="@Url.Action("Edit", "Usuarios", new { id = item.UsuarioID })"><span class="fa fa-edit"></span></a></td>
+                <td><a class="btn btn-danger" href="@Url.Action("Delete", "Usuarios", new { id = item.UsuarioID })"><span class="fa fa-book"></span></a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="text-primary text-danger text-center">
+    @ViewBag.MensajeError;
+</div>
+
+

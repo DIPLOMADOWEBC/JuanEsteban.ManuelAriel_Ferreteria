@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{06A5D837-8721-4C48-AE68-8DD77AD29527}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model.Dao</RootNamespace>
+    <AssemblyName>Model.Dao</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Model.Entity">
+      <HintPath>..\Model.Entity\bin\Debug\Model.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CategoriaDao.cs" />
+    <Compile Include="ClienteDao.cs" />
+    <Compile Include="ConexionDB.cs" />
+    <Compile Include="DetalleVentaDao.cs" />
+    <Compile Include="EntityContext\categoria.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\CategoriasProductos.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\cliente.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\Clientes.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\CompraItems.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\Compras.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\Configuracion.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\CorreosCliente.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\detalleVenta.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\EstadoArticulo.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\EstadosArticulos.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\factura.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\FacturaItems.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\Facturas.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\FamiliaProducto.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\FerreteriaTuHogarModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FerreteriaTuHogarModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\FerreteriaTuHogarModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\FerreteriaTuHogarModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FerreteriaTuHogarModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\Inventario.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\modoPago.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\Monedas.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\NCF.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\producto.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\Proveedores.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\sp_lista_clientes_Result.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\sp_producto_categoria_Result.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\sp_reporte_venta_Result.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\Sucursales.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\Usuarios.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\vendedor.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\Vendedores.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\venta.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\ViewAsientos.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\ViewHistoricoEstados.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\View_FacturaItemStatus.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityContext\vwTasasDias.cs">
+      <DependentUpon>FerreteriaTuHogarModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaDao.cs" />
+    <Compile Include="ModoPagoDao.cs" />
+    <Compile Include="Obligatorio.cs" />
+    <Compile Include="VentaDao.cs" />
+    <Compile Include="ProductoDao.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VendedorDao.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="EntityContext\FerreteriaTuHogarModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>FerreteriaTuHogarModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="EntityContext\FerreteriaTuHogarModel.edmx.diagram">
+      <DependentUpon>FerreteriaTuHogarModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="EntityContext\FerreteriaTuHogarModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FerreteriaTuHogarModel.edmx</DependentUpon>
+      <LastGenOutput>FerreteriaTuHogarModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="EntityContext\FerreteriaTuHogarModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FerreteriaTuHogarModel.edmx</DependentUpon>
+      <LastGenOutput>FerreteriaTuHogarModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

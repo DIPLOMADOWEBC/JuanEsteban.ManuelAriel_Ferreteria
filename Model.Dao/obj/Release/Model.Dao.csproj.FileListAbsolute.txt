@@ -1,0 +1,7 @@
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Release\Model.Dao.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Release\Model.Dao.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Release\Model.Entity.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Release\Model.Entity.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\obj\Release\Model.Dao.csprojResolveAssemblyReference.cache
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\obj\Release\Model.Dao.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\obj\Release\Model.Dao.pdb

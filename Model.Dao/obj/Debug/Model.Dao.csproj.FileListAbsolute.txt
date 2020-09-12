@@ -1,0 +1,102 @@
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Dao\bin\Debug\Model.Dao.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Dao\bin\Debug\Model.Dao.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Dao\bin\Debug\Model.Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Dao\bin\Debug\Model.Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Dao\obj\Debug\Model.Dao.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Dao\obj\Debug\Model.Dao.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNY\Model.Dao\obj\Debug\Model.Dao.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Dao\bin\Debug\Model.Dao.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Dao\bin\Debug\Model.Dao.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Dao\bin\Debug\Model.Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Dao\bin\Debug\Model.Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Dao\obj\Debug\Model.Dao.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Dao\obj\Debug\Model.Dao.dll
+C:\Users\Samuel\Documents\Visual Studio 2015\Projects\FACTURA_JHONNYv2\Model.Dao\obj\Debug\Model.Dao.pdb
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Dao\bin\Debug\Model.Dao.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Dao\bin\Debug\Model.Dao.pdb
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Dao\bin\Debug\Model.Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Dao\bin\Debug\Model.Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Dao\obj\Debug\Model.Dao.csprojAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Dao\obj\Debug\Model.Dao.csproj.CoreCompileInputs.cache
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Dao\obj\Debug\Model.Dao.csproj.CopyComplete
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Dao\obj\Debug\Model.Dao.dll
+C:\Users\Samuel\Documents\Visual Studio 2017\projects\FACTURA_JHONNYv2\Model.Dao\obj\Debug\Model.Dao.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Debug\Model.Dao.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Debug\Model.Dao.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Debug\Model.Entity.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\obj\Debug\Model.Dao.csprojResolveAssemblyReference.cache
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\obj\Debug\Model.Dao.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\obj\Debug\Model.Dao.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Debug\Model.Entity.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Debug\EntityFramework.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Debug\EntityFramework.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Dao\bin\Debug\Model.Dao.dll.config
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\Model.Dao.dll.config
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\Model.Dao.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\Model.Dao.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\EntityFramework.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\Model.Entity.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\EntityFramework.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\Model.Entity.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\obj\Debug\Model.Dao.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\obj\Debug\Model.Dao.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\obj\Debug\Model.Dao.csprojResolveAssemblyReference.cache
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\Model.Dao.dll.config
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\Model.Dao.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\Model.Dao.pdb
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\EntityFramework.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\EntityFramework.SqlServer.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\Model.Entity.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\EntityFramework.xml
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\EntityFramework.SqlServer.xml
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\bin\Debug\Model.Entity.pdb
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\obj\Debug\Model.Dao.csprojResolveAssemblyReference.cache
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\obj\Debug\Model.Dao.dll
+G:\PERSONAL\Punto de Venta WEB\PORYEC_MOD\Model.Dao\obj\Debug\Model.Dao.pdb
+C:\Diplomado\Model.Dao\bin\Debug\Model.Dao.dll.config
+C:\Diplomado\Model.Dao\bin\Debug\Model.Dao.dll
+C:\Diplomado\Model.Dao\bin\Debug\Model.Dao.pdb
+C:\Diplomado\Model.Dao\bin\Debug\EntityFramework.dll
+C:\Diplomado\Model.Dao\bin\Debug\EntityFramework.SqlServer.dll
+C:\Diplomado\Model.Dao\bin\Debug\Model.Entity.dll
+C:\Diplomado\Model.Dao\bin\Debug\EntityFramework.xml
+C:\Diplomado\Model.Dao\bin\Debug\EntityFramework.SqlServer.xml
+C:\Diplomado\Model.Dao\bin\Debug\Model.Entity.pdb
+C:\Diplomado\Model.Dao\obj\Debug\Model.Dao.dll
+C:\Diplomado\Model.Dao\obj\Debug\Model.Dao.pdb
+C:\Diplomado\Model.Dao\obj\Debug\Model.Dao.csproj.CoreCompileInputs.cache
+C:\Diplomado\Model.Dao\obj\Debug\Model.Dao.csproj.CopyComplete
+C:\Users\USER\Documents\ferreteria\Model.Dao\bin\Debug\Model.Dao.dll.config
+C:\Users\USER\Documents\ferreteria\Model.Dao\bin\Debug\Model.Dao.dll
+C:\Users\USER\Documents\ferreteria\Model.Dao\bin\Debug\Model.Dao.pdb
+C:\Users\USER\Documents\ferreteria\Model.Dao\bin\Debug\EntityFramework.dll
+C:\Users\USER\Documents\ferreteria\Model.Dao\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Documents\ferreteria\Model.Dao\bin\Debug\Model.Entity.dll
+C:\Users\USER\Documents\ferreteria\Model.Dao\bin\Debug\EntityFramework.xml
+C:\Users\USER\Documents\ferreteria\Model.Dao\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Documents\ferreteria\Model.Dao\bin\Debug\Model.Entity.pdb
+C:\Users\USER\Documents\ferreteria\Model.Dao\obj\Debug\Model.Dao.csproj.CopyComplete
+C:\Users\USER\Documents\ferreteria\Model.Dao\obj\Debug\Model.Dao.dll
+C:\Users\USER\Documents\ferreteria\Model.Dao\obj\Debug\Model.Dao.pdb
+C:\Users\USER\Documents\ferreteria\Model.Dao\bin\Debug\Model.Entity.dll.config
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\bin\Debug\Model.Dao.dll.config
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\bin\Debug\Model.Dao.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\bin\Debug\Model.Dao.pdb
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\bin\Debug\EntityFramework.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\bin\Debug\EntityFramework.SqlServer.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\bin\Debug\Model.Entity.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\bin\Debug\EntityFramework.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\bin\Debug\EntityFramework.SqlServer.xml
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\bin\Debug\Model.Entity.pdb
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\bin\Debug\Model.Entity.dll.config
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\obj\Debug\Model.Dao.csprojAssemblyReference.cache
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\obj\Debug\Model.Dao.csproj.CoreCompileInputs.cache
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\obj\Debug\Model.Dao.csproj.CopyComplete
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\obj\Debug\Model.Dao.dll
+D:\DIPLOMADOS\Diplomado C# Web\Proyecto Ferreteria_2\TareaEstudiante-master\TareaEstudiante-master\Model.Dao\obj\Debug\Model.Dao.pdb
+C:\Diplomado\Model.Dao\bin\Debug\Model.Entity.dll.config
+C:\Diplomado\Model.Dao\obj\Debug\Model.Dao.csprojAssemblyReference.cache

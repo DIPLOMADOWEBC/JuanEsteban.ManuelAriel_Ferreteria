@@ -1,0 +1,57 @@
+﻿@model WebFacturaMvc.Models.CategoriasProductos
+
+@{
+    ViewBag.Title = "Formulario Eliminar";
+}
+<div class="well well-sm text-primary text-center">
+    @ViewBag.MensajeInicialEliminar
+</div>
+
+@{
+    if (Session["IsLog"] == null)
+    {
+        Response.Redirect("~/Auth/Index");
+    }
+
+
+}
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>CategoriasProductos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Detalle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Detalle)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Regresar al Listado", "Index")
+        </div>
+    }
+</div>
+
+<div class="text-primary text-success text-center">
+    @ViewBag.MensajeExito;
+</div>
+<div class="text-primary text-danger text-center">
+    @ViewBag.MensajeError;
+</div>

@@ -1,0 +1,30 @@
+﻿@model WebFacturaMvc.Models.CategoriasProductos
+
+@{
+    ViewBag.Title = "Detalle";
+}
+
+<h2>Detalle</h2>
+
+@{
+    if (Session["IsLog"] == null)
+    {
+        Response.Redirect("~/Auth/Index");
+    }
+
+
+}
+<div>
+    <h4>Categoria Productos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>@Html.DisplayNameFor(model => model.Descripcion)</dt>
+        <dd>@Html.DisplayFor(model => model.Descripcion)</dd>
+        <dt>@Html.DisplayNameFor(model => model.Detalle)</dt>
+        <dd>@Html.DisplayFor(model => model.Detalle)</dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.CategoriaID }) |
+    @Html.ActionLink("Regresar al Listado", "Index")
+</p>

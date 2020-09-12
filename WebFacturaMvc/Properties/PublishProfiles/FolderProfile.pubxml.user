@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\Ferreteria</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Assets/bootstrap/css/bootstrap.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/css/bootstrap.min.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/js/bootstrap.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/bootstrap/js/bootstrap.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/css/font-awesome.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/css/font-awesome.min.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/animated.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/bordered-pulled.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/core.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/fixed-width.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/font-awesome.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/icons.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/larger.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/list.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/mixins.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/path.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/rotated-flipped.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/screen-reader.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/stacked.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/less/variables.less">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/font-awesome.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_animated.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_core.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_fixed-width.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_icons.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_larger.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_list.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_mixins.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_path.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_screen-reader.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_stacked.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/font-awesome/scss/_variables.scss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/jquery/jquery.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/jquery/jquery.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/metisMenu/metisMenu.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/metisMenu/metisMenu.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/metisMenu/metisMenu.min.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/metisMenu/metisMenu.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/morrisjs/morris.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/morrisjs/morris.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Assets/morrisjs/morris.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/EnvDTE.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/EnvDTE80.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.VisualStudio.Data.Core.resources.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.VisualStudio.Data.Services.resources.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.VisualStudio.GraphModel.resources.dll">
+      <publishTime>07/07/2015 01:26:06</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Helpers.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Mvc.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Razor.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Webpages.Deployment.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Webpages.Razor.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Webpages.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.MSXML.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Common.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.DataVisualization.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Design.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.ProcessingObjectModel.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebDesign.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebForms.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WinForms.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.Types.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.ComponentModelHost.dll">
+      <publishTime>06/20/2016 14:45:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Data.Core.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Data.Services.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Debugger.Interop.11.0.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Debugger.InteropA.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.GraphModel.dll">
+      <publishTime>06/20/2016 14:45:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.ManagedInterfaces.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.OLE.Interop.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.ProjectAggregator.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Shell.Interop.10.0.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Shell.Interop.11.0.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Shell.Interop.8.0.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Shell.Interop.9.0.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Shell.Interop.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.TemplateWizardInterface.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.TextManager.Interop.10.0.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.TextManager.Interop.8.0.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.TextManager.Interop.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.VSHelp.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.WCFReference.Interop.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/Model.Dao.dll">
+      <publishTime>09/12/2020 10:28:40</publishTime>
+    </File>
+    <File Include="bin/Model.Dao.dll.config">
+      <publishTime>09/10/2020 20:29:55</publishTime>
+    </File>
+    <File Include="bin/Model.Dao.pdb">
+      <publishTime>09/12/2020 10:28:40</publishTime>
+    </File>
+    <File Include="bin/Model.Entity.dll">
+      <publishTime>09/11/2020 21:52:10</publishTime>
+    </File>
+    <File Include="bin/Model.Entity.dll.config">
+      <publishTime>09/10/2020 20:06:12</publishTime>
+    </File>
+    <File Include="bin/Model.Entity.pdb">
+      <publishTime>09/11/2020 21:52:10</publishTime>
+    </File>
+    <File Include="bin/Model.Neg.dll">
+      <publishTime>09/12/2020 10:28:41</publishTime>
+    </File>
+    <File Include="bin/Model.Neg.pdb">
+      <publishTime>09/12/2020 10:28:41</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x64/msvcr120.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x64/SqlServerSpatial140.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x86/msvcr120.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x86/SqlServerSpatial140.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/VSLangProj.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/VSLangProj2.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/VSLangProj80.dll">
+      <publishTime>06/29/2018 15:10:15</publishTime>
+    </File>
+    <File Include="bin/WebFacturaMvc.dll">
+      <publishTime>09/12/2020 10:28:55</publishTime>
+    </File>
+    <File Include="bin/WebFacturaMvc.pdb">
+      <publishTime>09/12/2020 10:28:55</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-HANS/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-HANS/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-HANS/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-HANS/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-HANS/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-HANS/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-HANT/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-HANT/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-HANT/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-HANT/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-HANT/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="bin/zh-HANT/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Css/alertify.bootstrap.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Css/alertify.core.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Css/alertify.default.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Css/sb-admin-2.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Css/sb-admin-2.min.css">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="dbventasDataSet.xsc">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="dbventasDataSet.xss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Js/alertify.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Js/alertify.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Js/Categoria.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Js/modernizr-2.6.2.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Js/sb-admin-2.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Js/sb-admin-2.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Models/FerreteriaTuHogarModel.edmx.diagram">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Reportes/frmReporteFactura.aspx">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="RPTDataset/dsPrincipal.xsc">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="RPTDataset/dsPrincipal.xss">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/index.js.flow">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.min.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/index.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/defaults.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/destroy.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/disableEventListeners.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/enableEventListeners.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/placements.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/update.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/applyStyle.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/arrow.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/computeStyle.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/flip.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/hide.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/index.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/inner.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/keepTogether.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/offset.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/preventOverflow.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/shift.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/clockwise.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/computeAutoPlacement.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/debounce.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/find.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/findCommonOffsetParent.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/findIndex.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBordersSize.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBoundaries.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBoundingClientRect.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getClientRect.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getFixedPositionOffsetParent.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetParent.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetRect.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetRectRelativeToArbitraryNode.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOppositePlacement.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOppositeVariation.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOuterSizes.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getParentNode.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getPopperOffsets.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getReferenceNode.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getReferenceOffsets.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getRoot.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getRoundedOffsets.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getScroll.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getScrollParent.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getStyleComputedProperty.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getSupportedPropertyName.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getWindow.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getWindowSizes.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/includeScroll.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/index.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isBrowser.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isFixed.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isFunction.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isIE.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isModifierEnabled.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isModifierRequired.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isNumeric.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isOffsetContainer.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/removeEventListeners.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/runModifiers.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setAttributes.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setStyles.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setupEventListeners.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.flow">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="SqlServerTypes/readme.htm">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x64/msvcr120.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x64/SqlServerSpatial140.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x86/msvcr120.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x86/SqlServerSpatial140.dll">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Auth/CloseSession.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Auth/CreateUser.cshtml">
+      <publishTime>09/10/2020 17:22:49</publishTime>
+    </File>
+    <File Include="Views/Auth/Index.cshtml">
+      <publishTime>09/10/2020 16:57:32</publishTime>
+    </File>
+    <File Include="Views/Categoria/Create.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Categoria/Delete.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Categoria/Find.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Categoria/Index.cshtml">
+      <publishTime>09/10/2020 17:31:41</publishTime>
+    </File>
+    <File Include="Views/Categoria/Update.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/CategoriaERP/Create.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/CategoriaERP/Delete.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/CategoriaERP/Detalle.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/CategoriaERP/Index.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/CategoriaERP/Update.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Cliente/BuscarClientes.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Cliente/Create.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Cliente/Delete.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Cliente/Eliminar.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Cliente/Find.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Cliente/Index.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Cliente/Update.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Cliente/View.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/DetalleVenta/Eliminar.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/DetalleVenta/Index.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Inicio/Index.cshtml">
+      <publishTime>09/10/2020 20:59:35</publishTime>
+    </File>
+    <File Include="Views/ModoPago/Create.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/ModoPago/Delete.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/ModoPago/Find.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/ModoPago/Index.cshtml">
+      <publishTime>09/11/2020 18:51:58</publishTime>
+    </File>
+    <File Include="Views/ModoPago/Update.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Producto/BuscarProductos.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Producto/BuscarProductosPorCategoria.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Producto/Create.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Producto/Delete.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Producto/Find.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Producto/Index.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Producto/Update.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/ProductoERP/Create.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/ProductoERP/Delete.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/ProductoERP/Detalle.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/ProductoERP/Index.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/ProductoERP/Update.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutMy.cshtml">
+      <publishTime>09/11/2020 21:55:05</publishTime>
+    </File>
+    <File Include="Views/Usuarios/Create.cshtml">
+      <publishTime>09/10/2020 18:15:08</publishTime>
+    </File>
+    <File Include="Views/Usuarios/Delete.cshtml">
+      <publishTime>09/10/2020 18:15:08</publishTime>
+    </File>
+    <File Include="Views/Usuarios/Details.cshtml">
+      <publishTime>09/10/2020 18:15:07</publishTime>
+    </File>
+    <File Include="Views/Usuarios/Edit.cshtml">
+      <publishTime>09/10/2020 18:15:07</publishTime>
+    </File>
+    <File Include="Views/Usuarios/Index.cshtml">
+      <publishTime>09/10/2020 21:13:23</publishTime>
+    </File>
+    <File Include="Views/Vendedor/Create.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Vendedor/Delete.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Vendedor/Find.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Vendedor/Index.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Vendedor/Update.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Venta/DetallesVenta.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Venta/NuevaVenta.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Venta/ObtenerClientes.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Venta/ObtenerProductos.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Venta/PruebaJson.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Venta/ReporteVentas.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/Venta/VentaFactura.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/VentaERP/NewVenta.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/09/2020 17:54:46</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/12/2020 10:28:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

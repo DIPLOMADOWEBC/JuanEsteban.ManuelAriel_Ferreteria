@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FerreteriaDiplomadoModelStoreContainer" CdmEntityContainer="FerreteriaDiplomadoEntities">
+    <EntitySetMapping Name="categoria">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.categoria">
+        <MappingFragment StoreEntitySet="categoria">
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CategoriasProductos">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.CategoriasProductos">
+        <MappingFragment StoreEntitySet="CategoriasProductos">
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Detalle" ColumnName="Detalle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cliente">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.cliente">
+        <MappingFragment StoreEntitySet="cliente">
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apPaterno" ColumnName="apPaterno" />
+          <ScalarProperty Name="apMaterno" ColumnName="apMaterno" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.Clientes">
+        <MappingFragment StoreEntitySet="Clientes">
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Representante" ColumnName="Representante" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Fichas" ColumnName="Fichas" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="VendedorId" ColumnName="VendedorId" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="LimiteCredito" ColumnName="LimiteCredito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Compras">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.Compras">
+        <MappingFragment StoreEntitySet="Compras">
+          <ScalarProperty Name="CompraID" ColumnName="CompraID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoBienesServicios" ColumnName="TipoBienesServicios" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="detalleVenta">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.detalleVenta">
+        <MappingFragment StoreEntitySet="detalleVenta">
+          <ScalarProperty Name="idDetalle" ColumnName="idDetalle" />
+          <ScalarProperty Name="numFactura" ColumnName="numFactura" />
+          <ScalarProperty Name="idVenta" ColumnName="idVenta" />
+          <ScalarProperty Name="subTotal" ColumnName="subTotal" />
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="descuento" ColumnName="descuento" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="factura">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.factura">
+        <MappingFragment StoreEntitySet="factura">
+          <ScalarProperty Name="numFactura" ColumnName="numFactura" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="IVA" ColumnName="IVA" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="numPago" ColumnName="numPago" />
+          <ScalarProperty Name="descuento" ColumnName="descuento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Facturas">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.Facturas">
+        <MappingFragment StoreEntitySet="Facturas">
+          <ScalarProperty Name="FacturaID" ColumnName="FacturaID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoComprobante" ColumnName="TipoComprobante" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="UtilidadBruta" ColumnName="UtilidadBruta" />
+          <ScalarProperty Name="UtilidadNeta" ColumnName="UtilidadNeta" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="CajaID" ColumnName="CajaID" />
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="ReporteDeCajaID" ColumnName="ReporteDeCajaID" />
+          <ScalarProperty Name="Recibo" ColumnName="Recibo" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="AfectarInventario" ColumnName="AfectarInventario" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Seguro" ColumnName="Seguro" />
+          <ScalarProperty Name="PorcientoSeguro" ColumnName="PorcientoSeguro" />
+          <ScalarProperty Name="MonedaId" ColumnName="MonedaId" />
+          <ScalarProperty Name="Tasa" ColumnName="Tasa" />
+          <ScalarProperty Name="FechaTasa" ColumnName="FechaTasa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inventario">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.Inventario">
+        <MappingFragment StoreEntitySet="Inventario">
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="CodigoFabricante" ColumnName="CodigoFabricante" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Precio1" ColumnName="Precio1" />
+          <ScalarProperty Name="Precio2" ColumnName="Precio2" />
+          <ScalarProperty Name="Precio3" ColumnName="Precio3" />
+          <ScalarProperty Name="Precio4" ColumnName="Precio4" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="ProveedorID" ColumnName="ProveedorID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Proveedor" ColumnName="Proveedor" />
+          <ScalarProperty Name="PorPre1" ColumnName="PorPre1" />
+          <ScalarProperty Name="PorPre2" ColumnName="PorPre2" />
+          <ScalarProperty Name="PorPre3" ColumnName="PorPre3" />
+          <ScalarProperty Name="PorPre4" ColumnName="PorPre4" />
+          <ScalarProperty Name="Minimo" ColumnName="Minimo" />
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="FechaExpedicion" ColumnName="FechaExpedicion" />
+          <ScalarProperty Name="FechaExpiracion" ColumnName="FechaExpiracion" />
+          <ScalarProperty Name="FamiliaID" ColumnName="FamiliaID" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="SinImpuesto" ColumnName="SinImpuesto" />
+          <ScalarProperty Name="EstadoId" ColumnName="EstadoId" />
+          <ScalarProperty Name="Desde" ColumnName="Desde" />
+          <ScalarProperty Name="Hasta" ColumnName="Hasta" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Min1" ColumnName="Min1" />
+          <ScalarProperty Name="Min2" ColumnName="Min2" />
+          <ScalarProperty Name="Min3" ColumnName="Min3" />
+          <ScalarProperty Name="Min4" ColumnName="Min4" />
+          <ScalarProperty Name="Precio1_Itbis" ColumnName="Precio1_Itbis" />
+          <ScalarProperty Name="Precio2_Itbis" ColumnName="Precio2_Itbis" />
+          <ScalarProperty Name="Precio3_Itbis" ColumnName="Precio3_Itbis" />
+          <ScalarProperty Name="Precio4_Itbis" ColumnName="Precio4_Itbis" />
+          <ScalarProperty Name="IdEstadoArticulo" ColumnName="IdEstadoArticulo" />
+          <ScalarProperty Name="EstadoDescripcion" ColumnName="EstadoDescripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="modoPago">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.modoPago">
+        <MappingFragment StoreEntitySet="modoPago">
+          <ScalarProperty Name="numPago" ColumnName="numPago" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="otroDetalles" ColumnName="otroDetalles" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="producto">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.producto">
+        <MappingFragment StoreEntitySet="producto">
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="precioUnitario" ColumnName="precioUnitario" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proveedores">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.Proveedores">
+        <MappingFragment StoreEntitySet="Proveedores">
+          <ScalarProperty Name="ProveedorID" ColumnName="ProveedorID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Representante" ColumnName="Representante" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="EsProveedor" ColumnName="EsProveedor" />
+          <ScalarProperty Name="NombreComercial" ColumnName="NombreComercial" />
+          <ScalarProperty Name="Eliminado" ColumnName="Eliminado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="UsuarioID" ColumnName="UsuarioID" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+          <ScalarProperty Name="Facturacion" ColumnName="Facturacion" />
+          <ScalarProperty Name="Compras" ColumnName="Compras" />
+          <ScalarProperty Name="CuentasPorPagar" ColumnName="CuentasPorPagar" />
+          <ScalarProperty Name="CuentasPorCobrar" ColumnName="CuentasPorCobrar" />
+          <ScalarProperty Name="Usuarios1" ColumnName="Usuarios" />
+          <ScalarProperty Name="Inventario" ColumnName="Inventario" />
+          <ScalarProperty Name="Clientes" ColumnName="Clientes" />
+          <ScalarProperty Name="Cajas" ColumnName="Cajas" />
+          <ScalarProperty Name="Conduce" ColumnName="Conduce" />
+          <ScalarProperty Name="Cotizacion" ColumnName="Cotizacion" />
+          <ScalarProperty Name="Contabilidad" ColumnName="Contabilidad" />
+          <ScalarProperty Name="NotaDeCredito" ColumnName="NotaDeCredito" />
+          <ScalarProperty Name="NotaDeDebito" ColumnName="NotaDeDebito" />
+          <ScalarProperty Name="Configuracion" ColumnName="Configuracion" />
+          <ScalarProperty Name="Tasas" ColumnName="Tasas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vendedor">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.vendedor">
+        <MappingFragment StoreEntitySet="vendedor">
+          <ScalarProperty Name="idVendedor" ColumnName="idVendedor" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apPaterno" ColumnName="apPaterno" />
+          <ScalarProperty Name="apMaterno" ColumnName="apMaterno" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vendedores">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.Vendedores">
+        <MappingFragment StoreEntitySet="Vendedores">
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Comision" ColumnName="Comision" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="venta">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.venta">
+        <MappingFragment StoreEntitySet="venta">
+          <ScalarProperty Name="idVenta" ColumnName="idVenta" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="idVendedor" ColumnName="idVendedor" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="IVA" ColumnName="IVA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_FacturaItemStatus">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.View_FacturaItemStatus">
+        <MappingFragment StoreEntitySet="View_FacturaItemStatus">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="FacturaID" ColumnName="FacturaID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CantAlmacen" ColumnName="CantAlmacen" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cotizacion" ColumnName="Cotizacion" />
+          <ScalarProperty Name="Expiraciones" ColumnName="Expiraciones" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="Prepado" ColumnName="Prepado" />
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ViewAsientos">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.ViewAsientos">
+        <MappingFragment StoreEntitySet="ViewAsientos">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Referencia" ColumnName="Referencia" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Comprobante" ColumnName="Comprobante" />
+          <ScalarProperty Name="TotalDebito" ColumnName="TotalDebito" />
+          <ScalarProperty Name="TotalCredito" ColumnName="TotalCredito" />
+          <ScalarProperty Name="Cuenta" ColumnName="Cuenta" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+          <ScalarProperty Name="Debito" ColumnName="Debito" />
+          <ScalarProperty Name="Credito" ColumnName="Credito" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="DescripcionCta" ColumnName="DescripcionCta" />
+          <ScalarProperty Name="Eliminado" ColumnName="Eliminado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwTasasDias">
+      <EntityTypeMapping TypeName="FerreteriaDiplomadoModel.vwTasasDias">
+        <MappingFragment StoreEntitySet="vwTasasDias">
+          <ScalarProperty Name="TasaDiaId" ColumnName="TasaDiaId" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="MonedaId" ColumnName="MonedaId" />
+          <ScalarProperty Name="Simbolo" ColumnName="Simbolo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="reporte_factura" FunctionName="FerreteriaDiplomadoModel.Store.reporte_factura" />
+    <FunctionImportMapping FunctionImportName="sp_lista_clientes" FunctionName="FerreteriaDiplomadoModel.Store.sp_lista_clientes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FerreteriaDiplomadoModel.sp_lista_clientes_Result">
+          <ScalarProperty Name="RowId" ColumnName="RowId" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apPaterno" ColumnName="apPaterno" />
+          <ScalarProperty Name="apMaterno" ColumnName="apMaterno" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_producto_categoria" FunctionName="FerreteriaDiplomadoModel.Store.sp_producto_categoria">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FerreteriaDiplomadoModel.sp_producto_categoria_Result">
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="precioUnitario" ColumnName="precioUnitario" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="idCategoria1" ColumnName="idCategoria1" />
+          <ScalarProperty Name="nombre1" ColumnName="nombre1" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_reporte_venta" FunctionName="FerreteriaDiplomadoModel.Store.sp_reporte_venta">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FerreteriaDiplomadoModel.sp_reporte_venta_Result">
+          <ScalarProperty Name="idVenta" ColumnName="idVenta" />
+          <ScalarProperty Name="Trabajador" ColumnName="Trabajador" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="IVA" ColumnName="IVA" />
+          <ScalarProperty Name="descuento" ColumnName="descuento" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="precioUnitario" ColumnName="precioUnitario" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="numFactura" ColumnName="numFactura" />
+          <ScalarProperty Name="subTotal" ColumnName="subTotal" />
+          <ScalarProperty Name="total_parcial" ColumnName="total_parcial" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

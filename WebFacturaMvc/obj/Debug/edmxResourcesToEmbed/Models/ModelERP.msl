@@ -1,0 +1,1554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OpticaNewModelEntityStoreContainer" CdmEntityContainer="OpticaNewEntities">
+    <EntitySetMapping Name="AsAutomaticos">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.AsAutomaticos">
+        <MappingFragment StoreEntitySet="AsAutomaticos">
+          <ScalarProperty Name="AsAutomaticosId" ColumnName="AsAutomaticosId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="CtaCodigo" ColumnName="CtaCodigo" />
+          <ScalarProperty Name="CtaDescripcion" ColumnName="CtaDescripcion" />
+          <ScalarProperty Name="Debito" ColumnName="Debito" />
+          <ScalarProperty Name="Credito" ColumnName="Credito" />
+          <ScalarProperty Name="Transaccion" ColumnName="Transaccion" />
+          <ScalarProperty Name="FuenteId" ColumnName="FuenteId" />
+          <ScalarProperty Name="Operacion" ColumnName="Operacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AsientosContables">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.AsientosContables">
+        <MappingFragment StoreEntitySet="AsientosContables">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Referencia" ColumnName="Referencia" />
+          <ScalarProperty Name="Comprobante" ColumnName="Comprobante" />
+          <ScalarProperty Name="TotalDebito" ColumnName="TotalDebito" />
+          <ScalarProperty Name="TotalCredito" ColumnName="TotalCredito" />
+          <ScalarProperty Name="FuenteID" ColumnName="FuenteID" />
+          <ScalarProperty Name="Eliminado" ColumnName="Eliminado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AsientosDetalle">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.AsientosDetalle">
+        <MappingFragment StoreEntitySet="AsientosDetalle">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AsientoId" ColumnName="AsientoId" />
+          <ScalarProperty Name="Cuenta" ColumnName="Cuenta" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+          <ScalarProperty Name="Debito" ColumnName="Debito" />
+          <ScalarProperty Name="Credito" ColumnName="Credito" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="DescripcionCta" ColumnName="DescripcionCta" />
+          <ScalarProperty Name="Eliminado" ColumnName="Eliminado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cajas">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Cajas">
+        <MappingFragment StoreEntitySet="Cajas">
+          <ScalarProperty Name="CajaID" ColumnName="CajaID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatalogoDeCuenta">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.CatalogoDeCuenta">
+        <MappingFragment StoreEntitySet="CatalogoDeCuenta">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NoCuenta" ColumnName="NoCuenta" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="ClasificacionId" ColumnName="ClasificacionId" />
+          <ScalarProperty Name="ContieneSubCuenta" ColumnName="ContieneSubCuenta" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFinal" ColumnName="FechaFinal" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Registro" ColumnName="Registro" />
+          <ScalarProperty Name="UsaRegistro" ColumnName="UsaRegistro" />
+          <ScalarProperty Name="IdCuentaPadre" ColumnName="IdCuentaPadre" />
+          <ScalarProperty Name="TipoCta" ColumnName="TipoCta" />
+          <ScalarProperty Name="Posicion" ColumnName="Posicion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CategoriasProductos">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.CategoriasProductos">
+        <MappingFragment StoreEntitySet="CategoriasProductos">
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Detalle" ColumnName="Detalle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClasificacionCuentas">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.ClasificacionCuentas">
+        <MappingFragment StoreEntitySet="ClasificacionCuentas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Clientes">
+        <MappingFragment StoreEntitySet="Clientes">
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Representante" ColumnName="Representante" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Fichas" ColumnName="Fichas" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="VendedorId" ColumnName="VendedorId" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="LimiteCredito" ColumnName="LimiteCredito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompraItems">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.CompraItems">
+        <MappingFragment StoreEntitySet="CompraItems">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CompraID" ColumnName="CompraID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CantAlmacen" ColumnName="CantAlmacen" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Expiraciones" ColumnName="Expiraciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Compras">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Compras">
+        <MappingFragment StoreEntitySet="Compras">
+          <ScalarProperty Name="CompraID" ColumnName="CompraID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoBienesServicios" ColumnName="TipoBienesServicios" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ComprasOld">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.ComprasOld">
+        <MappingFragment StoreEntitySet="ComprasOld">
+          <ScalarProperty Name="CompraID" ColumnName="CompraID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoBienesServicios" ColumnName="TipoBienesServicios" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ConduceItems">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.ConduceItems">
+        <MappingFragment StoreEntitySet="ConduceItems">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="ConduceID" ColumnName="ConduceID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CantAlmacen" ColumnName="CantAlmacen" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cotizacion" ColumnName="Cotizacion" />
+          <ScalarProperty Name="Expiraciones" ColumnName="Expiraciones" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Prepado" ColumnName="Prepado" />
+          <ScalarProperty Name="SinImpuesto" ColumnName="SinImpuesto" />
+          <ScalarProperty Name="Inicio" ColumnName="Inicio" />
+          <ScalarProperty Name="Fin" ColumnName="Fin" />
+          <ScalarProperty Name="Precio1" ColumnName="Precio1" />
+          <ScalarProperty Name="Precio2" ColumnName="Precio2" />
+          <ScalarProperty Name="Precio3" ColumnName="Precio3" />
+          <ScalarProperty Name="Precio4" ColumnName="Precio4" />
+          <ScalarProperty Name="Min1" ColumnName="Min1" />
+          <ScalarProperty Name="Min2" ColumnName="Min2" />
+          <ScalarProperty Name="Min3" ColumnName="Min3" />
+          <ScalarProperty Name="Min4" ColumnName="Min4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ConduceItemsOld">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.ConduceItemsOld">
+        <MappingFragment StoreEntitySet="ConduceItemsOld">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="ConduceID" ColumnName="ConduceID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CantAlmacen" ColumnName="CantAlmacen" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cotizacion" ColumnName="Cotizacion" />
+          <ScalarProperty Name="Expiraciones" ColumnName="Expiraciones" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Conduces">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Conduces">
+        <MappingFragment StoreEntitySet="Conduces">
+          <ScalarProperty Name="ConduceID" ColumnName="ConduceID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoComprobante" ColumnName="TipoComprobante" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="UtilidadBruta" ColumnName="UtilidadBruta" />
+          <ScalarProperty Name="UtilidadNeta" ColumnName="UtilidadNeta" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="CajaID" ColumnName="CajaID" />
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="ReporteDeCajaID" ColumnName="ReporteDeCajaID" />
+          <ScalarProperty Name="Recibo" ColumnName="Recibo" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="AfectarInventario" ColumnName="AfectarInventario" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Seguro" ColumnName="Seguro" />
+          <ScalarProperty Name="PorcientoSeguro" ColumnName="PorcientoSeguro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ConducesOld">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.ConducesOld">
+        <MappingFragment StoreEntitySet="ConducesOld">
+          <ScalarProperty Name="ConduceID" ColumnName="ConduceID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoComprobante" ColumnName="TipoComprobante" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="UtilidadBruta" ColumnName="UtilidadBruta" />
+          <ScalarProperty Name="UtilidadNeta" ColumnName="UtilidadNeta" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="CajaID" ColumnName="CajaID" />
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Configuracion">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Configuracion">
+        <MappingFragment StoreEntitySet="Configuracion">
+          <ScalarProperty Name="ConfiguracionID" ColumnName="ConfiguracionID" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="Representante" ColumnName="Representante" />
+          <ScalarProperty Name="PorPre1" ColumnName="PorPre1" />
+          <ScalarProperty Name="PorPre2" ColumnName="PorPre2" />
+          <ScalarProperty Name="PorPre3" ColumnName="PorPre3" />
+          <ScalarProperty Name="ImpuestoEnProducto" ColumnName="ImpuestoEnProducto" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Seguro" ColumnName="Seguro" />
+          <ScalarProperty Name="Transporte" ColumnName="Transporte" />
+          <ScalarProperty Name="PermitirDescuento" ColumnName="PermitirDescuento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ConfiguracionContable">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.ConfiguracionContable">
+        <MappingFragment StoreEntitySet="ConfiguracionContable">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="InicioContabilidad" ColumnName="InicioContabilidad" />
+          <ScalarProperty Name="CuentaCierreEjercicio" ColumnName="CuentaCierreEjercicio" />
+          <ScalarProperty Name="CuentaCapital" ColumnName="CuentaCapital" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContizacionesItemsOld">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.ContizacionesItemsOld">
+        <MappingFragment StoreEntitySet="ContizacionesItemsOld">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CotizacionID" ColumnName="CotizacionID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CantAlmacen" ColumnName="CantAlmacen" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cotizacion" ColumnName="Cotizacion" />
+          <ScalarProperty Name="Expiraciones" ColumnName="Expiraciones" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContizacionesItemsOld2">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.ContizacionesItemsOld2">
+        <MappingFragment StoreEntitySet="ContizacionesItemsOld2">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CotizacionID" ColumnName="CotizacionID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CantAlmacen" ColumnName="CantAlmacen" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Correo">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Correo">
+        <MappingFragment StoreEntitySet="Correo">
+          <ScalarProperty Name="CorreoID" ColumnName="CorreoID" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Correo1" ColumnName="Correo" />
+          <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+          <ScalarProperty Name="smtp" ColumnName="smtp" />
+          <ScalarProperty Name="puerto" ColumnName="puerto" />
+          <ScalarProperty Name="Proveedor" ColumnName="Proveedor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CorreosCliente">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.CorreosCliente">
+        <MappingFragment StoreEntitySet="CorreosCliente">
+          <ScalarProperty Name="CorreoClienteId" ColumnName="CorreoClienteId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Enviar" ColumnName="Enviar" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cotizaciones">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Cotizaciones">
+        <MappingFragment StoreEntitySet="Cotizaciones">
+          <ScalarProperty Name="CotizacionID" ColumnName="CotizacionID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoComprobante" ColumnName="TipoComprobante" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="UtilidadBruta" ColumnName="UtilidadBruta" />
+          <ScalarProperty Name="UtilidadNeta" ColumnName="UtilidadNeta" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="CajaID" ColumnName="CajaID" />
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="ReporteDeCajaID" ColumnName="ReporteDeCajaID" />
+          <ScalarProperty Name="Recibo" ColumnName="Recibo" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="AfectarInventario" ColumnName="AfectarInventario" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Seguro" ColumnName="Seguro" />
+          <ScalarProperty Name="PorcientoSeguro" ColumnName="PorcientoSeguro" />
+          <ScalarProperty Name="MonedaId" ColumnName="MonedaId" />
+          <ScalarProperty Name="Tasa" ColumnName="Tasa" />
+          <ScalarProperty Name="FechaTasa" ColumnName="FechaTasa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CotizacionesItems">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.CotizacionesItems">
+        <MappingFragment StoreEntitySet="CotizacionesItems">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CotizacionID" ColumnName="CotizacionID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CantAlmacen" ColumnName="CantAlmacen" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cotizacion" ColumnName="Cotizacion" />
+          <ScalarProperty Name="Expiraciones" ColumnName="Expiraciones" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Prepado" ColumnName="Prepado" />
+          <ScalarProperty Name="SinImpuesto" ColumnName="SinImpuesto" />
+          <ScalarProperty Name="Inicio" ColumnName="Inicio" />
+          <ScalarProperty Name="Fin" ColumnName="Fin" />
+          <ScalarProperty Name="Precio1" ColumnName="Precio1" />
+          <ScalarProperty Name="Precio2" ColumnName="Precio2" />
+          <ScalarProperty Name="Precio3" ColumnName="Precio3" />
+          <ScalarProperty Name="Precio4" ColumnName="Precio4" />
+          <ScalarProperty Name="Min1" ColumnName="Min1" />
+          <ScalarProperty Name="Min2" ColumnName="Min2" />
+          <ScalarProperty Name="Min3" ColumnName="Min3" />
+          <ScalarProperty Name="Min4" ColumnName="Min4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CotizacionesOld">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.CotizacionesOld">
+        <MappingFragment StoreEntitySet="CotizacionesOld">
+          <ScalarProperty Name="CotizacionID" ColumnName="CotizacionID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoComprobante" ColumnName="TipoComprobante" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="UtilidadBruta" ColumnName="UtilidadBruta" />
+          <ScalarProperty Name="UtilidadNeta" ColumnName="UtilidadNeta" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="CajaID" ColumnName="CajaID" />
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="Enviar" ColumnName="Enviar" />
+          <ScalarProperty Name="Caja" ColumnName="Caja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CotizacionesOld2">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.CotizacionesOld2">
+        <MappingFragment StoreEntitySet="CotizacionesOld2">
+          <ScalarProperty Name="CotizacionID" ColumnName="CotizacionID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoComprobante" ColumnName="TipoComprobante" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CuentasPorCobrar">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.CuentasPorCobrar">
+        <MappingFragment StoreEntitySet="CuentasPorCobrar">
+          <ScalarProperty Name="CuentaPorCobrarID" ColumnName="CuentaPorCobrarID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Vence" ColumnName="Vence" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Afecta" ColumnName="Afecta" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="TipoAfectado" ColumnName="TipoAfectado" />
+          <ScalarProperty Name="Afecta2" ColumnName="Afecta2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CuentasPorPagar">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.CuentasPorPagar">
+        <MappingFragment StoreEntitySet="CuentasPorPagar">
+          <ScalarProperty Name="CuentaPorCobrarID" ColumnName="CuentaPorCobrarID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Vence" ColumnName="Vence" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Afecta" ColumnName="Afecta" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="TipoAfectado" ColumnName="TipoAfectado" />
+          <ScalarProperty Name="Afecta2" ColumnName="Afecta2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Deudas">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Deudas">
+        <MappingFragment StoreEntitySet="Deudas">
+          <ScalarProperty Name="DeudaID" ColumnName="DeudaID" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Corriente" ColumnName="Corriente" />
+          <ScalarProperty Name="Vence1" ColumnName="Vence1" />
+          <ScalarProperty Name="Vence2" ColumnName="Vence2" />
+          <ScalarProperty Name="Vence3" ColumnName="Vence3" />
+          <ScalarProperty Name="Vence4" ColumnName="Vence4" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeudasNew">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.DeudasNew">
+        <MappingFragment StoreEntitySet="DeudasNew">
+          <ScalarProperty Name="DeudaID" ColumnName="DeudaID" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Corriente" ColumnName="Corriente" />
+          <ScalarProperty Name="Vence1" ColumnName="Vence1" />
+          <ScalarProperty Name="Vence2" ColumnName="Vence2" />
+          <ScalarProperty Name="Vence3" ColumnName="Vence3" />
+          <ScalarProperty Name="Vence4" ColumnName="Vence4" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EstadoArticulo">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.EstadoArticulo">
+        <MappingFragment StoreEntitySet="EstadoArticulo">
+          <ScalarProperty Name="EstadoArticuloID" ColumnName="EstadoArticuloID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="FacturaID" ColumnName="FacturaID" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="EstadoId" ColumnName="EstadoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EstadosArticulos">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.EstadosArticulos">
+        <MappingFragment StoreEntitySet="EstadosArticulos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EstadosInventario">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.EstadosInventario">
+        <MappingFragment StoreEntitySet="EstadosInventario">
+          <ScalarProperty Name="EstadoId" ColumnName="EstadoId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExportarCompras">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.ExportarCompras">
+        <MappingFragment StoreEntitySet="ExportarCompras">
+          <ScalarProperty Name="Lineas" ColumnName="Lineas" />
+          <ScalarProperty Name="RNCCedula" ColumnName="RNCCedula" />
+          <ScalarProperty Name="TipoId" ColumnName="TipoId" />
+          <ScalarProperty Name="TipoBienesYservicios" ColumnName="TipoBienesYservicios" />
+          <ScalarProperty Name="NCF" ColumnName="NCF" />
+          <ScalarProperty Name="NCFMODIFICADO" ColumnName="NCFMODIFICADO" />
+          <ScalarProperty Name="FechaComprobante" ColumnName="FechaComprobante" />
+          <ScalarProperty Name="FechaComprobanteDia" ColumnName="FechaComprobanteDia" />
+          <ScalarProperty Name="FechaPago" ColumnName="FechaPago" />
+          <ScalarProperty Name="FechaPagoDia" ColumnName="FechaPagoDia" />
+          <ScalarProperty Name="ItbisFacturado" ColumnName="ItbisFacturado" />
+          <ScalarProperty Name="ItbisRetenido" ColumnName="ItbisRetenido" />
+          <ScalarProperty Name="MontoFacturado" ColumnName="MontoFacturado" />
+          <ScalarProperty Name="RetencionRenta" ColumnName="RetencionRenta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FacturaItems">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.FacturaItems">
+        <MappingFragment StoreEntitySet="FacturaItems">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="FacturaID" ColumnName="FacturaID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CantAlmacen" ColumnName="CantAlmacen" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cotizacion" ColumnName="Cotizacion" />
+          <ScalarProperty Name="Expiraciones" ColumnName="Expiraciones" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Prepado" ColumnName="Prepado" />
+          <ScalarProperty Name="SinImpuesto" ColumnName="SinImpuesto" />
+          <ScalarProperty Name="Inicio" ColumnName="Inicio" />
+          <ScalarProperty Name="Fin" ColumnName="Fin" />
+          <ScalarProperty Name="Precio1" ColumnName="Precio1" />
+          <ScalarProperty Name="Precio2" ColumnName="Precio2" />
+          <ScalarProperty Name="Precio3" ColumnName="Precio3" />
+          <ScalarProperty Name="Precio4" ColumnName="Precio4" />
+          <ScalarProperty Name="Min1" ColumnName="Min1" />
+          <ScalarProperty Name="Min2" ColumnName="Min2" />
+          <ScalarProperty Name="Min3" ColumnName="Min3" />
+          <ScalarProperty Name="Min4" ColumnName="Min4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Facturas">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Facturas">
+        <MappingFragment StoreEntitySet="Facturas">
+          <ScalarProperty Name="FacturaID" ColumnName="FacturaID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoComprobante" ColumnName="TipoComprobante" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="UtilidadBruta" ColumnName="UtilidadBruta" />
+          <ScalarProperty Name="UtilidadNeta" ColumnName="UtilidadNeta" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="CajaID" ColumnName="CajaID" />
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="ReporteDeCajaID" ColumnName="ReporteDeCajaID" />
+          <ScalarProperty Name="Recibo" ColumnName="Recibo" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="AfectarInventario" ColumnName="AfectarInventario" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Seguro" ColumnName="Seguro" />
+          <ScalarProperty Name="PorcientoSeguro" ColumnName="PorcientoSeguro" />
+          <ScalarProperty Name="MonedaId" ColumnName="MonedaId" />
+          <ScalarProperty Name="Tasa" ColumnName="Tasa" />
+          <ScalarProperty Name="FechaTasa" ColumnName="FechaTasa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FacturasOld">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.FacturasOld">
+        <MappingFragment StoreEntitySet="FacturasOld">
+          <ScalarProperty Name="FacturaID" ColumnName="FacturaID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoComprobante" ColumnName="TipoComprobante" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="UtilidadBruta" ColumnName="UtilidadBruta" />
+          <ScalarProperty Name="UtilidadNeta" ColumnName="UtilidadNeta" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="CajaID" ColumnName="CajaID" />
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="ReporteDeCajaID" ColumnName="ReporteDeCajaID" />
+          <ScalarProperty Name="Recibo" ColumnName="Recibo" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="AfectarInventario" ColumnName="AfectarInventario" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FamiliaProducto">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.FamiliaProducto">
+        <MappingFragment StoreEntitySet="FamiliaProducto">
+          <ScalarProperty Name="FamiliaID" ColumnName="FamiliaID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
+          <ScalarProperty Name="ProductoIdFamilia" ColumnName="ProductoIdFamilia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FuentesContables">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.FuentesContables">
+        <MappingFragment StoreEntitySet="FuentesContables">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistorialEstados">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.HistorialEstados">
+        <MappingFragment StoreEntitySet="HistorialEstados">
+          <ScalarProperty Name="HistorialEstadoId" ColumnName="HistorialEstadoId" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="InventarioId" ColumnName="InventarioId" />
+          <ScalarProperty Name="FacturaId" ColumnName="FacturaId" />
+          <ScalarProperty Name="Desde" ColumnName="Desde" />
+          <ScalarProperty Name="Hasta" ColumnName="Hasta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inventario">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Inventario">
+        <MappingFragment StoreEntitySet="Inventario">
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CodigoFabricante" ColumnName="CodigoFabricante" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Precio1" ColumnName="Precio1" />
+          <ScalarProperty Name="Precio2" ColumnName="Precio2" />
+          <ScalarProperty Name="Precio3" ColumnName="Precio3" />
+          <ScalarProperty Name="Precio4" ColumnName="Precio4" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="ProveedorID" ColumnName="ProveedorID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Proveedor" ColumnName="Proveedor" />
+          <ScalarProperty Name="PorPre1" ColumnName="PorPre1" />
+          <ScalarProperty Name="PorPre2" ColumnName="PorPre2" />
+          <ScalarProperty Name="PorPre3" ColumnName="PorPre3" />
+          <ScalarProperty Name="PorPre4" ColumnName="PorPre4" />
+          <ScalarProperty Name="Minimo" ColumnName="Minimo" />
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="FechaExpedicion" ColumnName="FechaExpedicion" />
+          <ScalarProperty Name="FechaExpiracion" ColumnName="FechaExpiracion" />
+          <ScalarProperty Name="FamiliaID" ColumnName="FamiliaID" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="SinImpuesto" ColumnName="SinImpuesto" />
+          <ScalarProperty Name="EstadoId" ColumnName="EstadoId" />
+          <ScalarProperty Name="Desde" ColumnName="Desde" />
+          <ScalarProperty Name="Hasta" ColumnName="Hasta" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Min1" ColumnName="Min1" />
+          <ScalarProperty Name="Min2" ColumnName="Min2" />
+          <ScalarProperty Name="Min3" ColumnName="Min3" />
+          <ScalarProperty Name="Min4" ColumnName="Min4" />
+          <ScalarProperty Name="Precio1_Itbis" ColumnName="Precio1_Itbis" />
+          <ScalarProperty Name="Precio2_Itbis" ColumnName="Precio2_Itbis" />
+          <ScalarProperty Name="Precio3_Itbis" ColumnName="Precio3_Itbis" />
+          <ScalarProperty Name="Precio4_Itbis" ColumnName="Precio4_Itbis" />
+          <ScalarProperty Name="IdEstadoArticulo" ColumnName="IdEstadoArticulo" />
+          <ScalarProperty Name="EstadoDescripcion" ColumnName="EstadoDescripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InventarioOld">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.InventarioOld">
+        <MappingFragment StoreEntitySet="InventarioOld">
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CodigoFabricante" ColumnName="CodigoFabricante" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Precio1" ColumnName="Precio1" />
+          <ScalarProperty Name="Precio2" ColumnName="Precio2" />
+          <ScalarProperty Name="Precio3" ColumnName="Precio3" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="ProveedorID" ColumnName="ProveedorID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Proveedor" ColumnName="Proveedor" />
+          <ScalarProperty Name="PorPre1" ColumnName="PorPre1" />
+          <ScalarProperty Name="PorPre2" ColumnName="PorPre2" />
+          <ScalarProperty Name="PorPre3" ColumnName="PorPre3" />
+          <ScalarProperty Name="Minimo" ColumnName="Minimo" />
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="FechaExpedicion" ColumnName="FechaExpedicion" />
+          <ScalarProperty Name="FechaExpiracion" ColumnName="FechaExpiracion" />
+          <ScalarProperty Name="FamiliaID" ColumnName="FamiliaID" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Monedas">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Monedas">
+        <MappingFragment StoreEntitySet="Monedas">
+          <ScalarProperty Name="MonedaId" ColumnName="MonedaId" />
+          <ScalarProperty Name="Simbolo" ColumnName="Simbolo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NCF">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.NCF">
+        <MappingFragment StoreEntitySet="NCF">
+          <ScalarProperty Name="ComprobanteID" ColumnName="ComprobanteID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="NcfFijos" ColumnName="NcfFijos" />
+          <ScalarProperty Name="NcfDinamicos" ColumnName="NcfDinamicos" />
+          <ScalarProperty Name="ddsf" ColumnName="ddsf" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Expiracion" ColumnName="Expiracion" />
+          <ScalarProperty Name="Consumidos" ColumnName="Consumidos" />
+          <ScalarProperty Name="CantidadNotifica" ColumnName="CantidadNotifica" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotaCredito">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.NotaCredito">
+        <MappingFragment StoreEntitySet="NotaCredito">
+          <ScalarProperty Name="NotaCreditoID" ColumnName="NotaCreditoID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoComprobante" ColumnName="TipoComprobante" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="UtilidadBruta" ColumnName="UtilidadBruta" />
+          <ScalarProperty Name="UtilidadNeta" ColumnName="UtilidadNeta" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="CajaID" ColumnName="CajaID" />
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="ReporteDeCajaID" ColumnName="ReporteDeCajaID" />
+          <ScalarProperty Name="Recibo" ColumnName="Recibo" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="AfectarInventario" ColumnName="AfectarInventario" />
+          <ScalarProperty Name="FacturaAfecta" ColumnName="FacturaAfecta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotaCreditoItems">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.NotaCreditoItems">
+        <MappingFragment StoreEntitySet="NotaCreditoItems">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="NotaCreditoID" ColumnName="NotaCreditoID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CantAlmacen" ColumnName="CantAlmacen" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cotizacion" ColumnName="Cotizacion" />
+          <ScalarProperty Name="Expiraciones" ColumnName="Expiraciones" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Prepado" ColumnName="Prepado" />
+          <ScalarProperty Name="SinImpuesto" ColumnName="SinImpuesto" />
+          <ScalarProperty Name="Inicio" ColumnName="Inicio" />
+          <ScalarProperty Name="Fin" ColumnName="Fin" />
+          <ScalarProperty Name="Precio1" ColumnName="Precio1" />
+          <ScalarProperty Name="Precio2" ColumnName="Precio2" />
+          <ScalarProperty Name="Precio3" ColumnName="Precio3" />
+          <ScalarProperty Name="Precio4" ColumnName="Precio4" />
+          <ScalarProperty Name="Min1" ColumnName="Min1" />
+          <ScalarProperty Name="Min2" ColumnName="Min2" />
+          <ScalarProperty Name="Min3" ColumnName="Min3" />
+          <ScalarProperty Name="Min4" ColumnName="Min4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotaCreditoItemsOld">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.NotaCreditoItemsOld">
+        <MappingFragment StoreEntitySet="NotaCreditoItemsOld">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="ConduceID" ColumnName="ConduceID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CantAlmacen" ColumnName="CantAlmacen" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cotizacion" ColumnName="Cotizacion" />
+          <ScalarProperty Name="Expiraciones" ColumnName="Expiraciones" />
+          <ScalarProperty Name="NotaCreditoID" ColumnName="NotaCreditoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotaCreditoOld">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.NotaCreditoOld">
+        <MappingFragment StoreEntitySet="NotaCreditoOld">
+          <ScalarProperty Name="NotaCreditoID" ColumnName="NotaCreditoID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoComprobante" ColumnName="TipoComprobante" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="UtilidadBruta" ColumnName="UtilidadBruta" />
+          <ScalarProperty Name="UtilidadNeta" ColumnName="UtilidadNeta" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="Retornado" ColumnName="Retornado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotaDebito">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.NotaDebito">
+        <MappingFragment StoreEntitySet="NotaDebito">
+          <ScalarProperty Name="NotaDebitoID" ColumnName="NotaDebitoID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Prazo" ColumnName="Prazo" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Ncf" ColumnName="Ncf" />
+          <ScalarProperty Name="TipoComprobante" ColumnName="TipoComprobante" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="FechaVence" ColumnName="FechaVence" />
+          <ScalarProperty Name="PorItbis" ColumnName="PorItbis" />
+          <ScalarProperty Name="PorDes" ColumnName="PorDes" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Enumeracion" ColumnName="Enumeracion" />
+          <ScalarProperty Name="UtilidadBruta" ColumnName="UtilidadBruta" />
+          <ScalarProperty Name="UtilidadNeta" ColumnName="UtilidadNeta" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="Vendedor" ColumnName="Vendedor" />
+          <ScalarProperty Name="CajaID" ColumnName="CajaID" />
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="ReporteDeCajaID" ColumnName="ReporteDeCajaID" />
+          <ScalarProperty Name="Recibo" ColumnName="Recibo" />
+          <ScalarProperty Name="Cambio" ColumnName="Cambio" />
+          <ScalarProperty Name="AfectarInventario" ColumnName="AfectarInventario" />
+          <ScalarProperty Name="FacturaAfecta" ColumnName="FacturaAfecta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotaDebitoItems">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.NotaDebitoItems">
+        <MappingFragment StoreEntitySet="NotaDebitoItems">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="NotaDebitoID" ColumnName="NotaDebitoID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CantAlmacen" ColumnName="CantAlmacen" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cotizacion" ColumnName="Cotizacion" />
+          <ScalarProperty Name="Expiraciones" ColumnName="Expiraciones" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Prepado" ColumnName="Prepado" />
+          <ScalarProperty Name="SinImpuesto" ColumnName="SinImpuesto" />
+          <ScalarProperty Name="Inicio" ColumnName="Inicio" />
+          <ScalarProperty Name="Fin" ColumnName="Fin" />
+          <ScalarProperty Name="Precio1" ColumnName="Precio1" />
+          <ScalarProperty Name="Precio2" ColumnName="Precio2" />
+          <ScalarProperty Name="Precio3" ColumnName="Precio3" />
+          <ScalarProperty Name="Precio4" ColumnName="Precio4" />
+          <ScalarProperty Name="Min1" ColumnName="Min1" />
+          <ScalarProperty Name="Min2" ColumnName="Min2" />
+          <ScalarProperty Name="Min3" ColumnName="Min3" />
+          <ScalarProperty Name="Min4" ColumnName="Min4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proveedores">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Proveedores">
+        <MappingFragment StoreEntitySet="Proveedores">
+          <ScalarProperty Name="ProveedorID" ColumnName="ProveedorID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Representante" ColumnName="Representante" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="EsProveedor" ColumnName="EsProveedor" />
+          <ScalarProperty Name="NombreComercial" ColumnName="NombreComercial" />
+          <ScalarProperty Name="Eliminado" ColumnName="Eliminado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RegistroActividades">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.RegistroActividades">
+        <MappingFragment StoreEntitySet="RegistroActividades">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Empresa" ColumnName="Empresa" />
+          <ScalarProperty Name="IdEmpresa" ColumnName="IdEmpresa" />
+          <ScalarProperty Name="Cte" ColumnName="Cte" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="IdAsiento" ColumnName="IdAsiento" />
+          <ScalarProperty Name="Ingreso" ColumnName="Ingreso" />
+          <ScalarProperty Name="Eliminado" ColumnName="Eliminado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RegistroProducto">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.RegistroProducto">
+        <MappingFragment StoreEntitySet="RegistroProducto">
+          <ScalarProperty Name="RegistroID" ColumnName="RegistroID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="FechaExpiracion" ColumnName="FechaExpiracion" />
+          <ScalarProperty Name="FechaExpedicion" ColumnName="FechaExpedicion" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RegistroProductoResp">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.RegistroProductoResp">
+        <MappingFragment StoreEntitySet="RegistroProductoResp">
+          <ScalarProperty Name="RegistroID" ColumnName="RegistroID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="FechaExpiracion" ColumnName="FechaExpiracion" />
+          <ScalarProperty Name="FechaExpedicion" ColumnName="FechaExpedicion" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Registros">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Registros">
+        <MappingFragment StoreEntitySet="Registros">
+          <ScalarProperty Name="RegistroID" ColumnName="RegistroID" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Entrega" ColumnName="Entrega" />
+          <ScalarProperty Name="Gato" ColumnName="Gato" />
+          <ScalarProperty Name="Radio" ColumnName="Radio" />
+          <ScalarProperty Name="CajaCD" ColumnName="CajaCD" />
+          <ScalarProperty Name="GomaRP" ColumnName="GomaRP" />
+          <ScalarProperty Name="VidrioTras" ColumnName="VidrioTras" />
+          <ScalarProperty Name="LlavesRuedas" ColumnName="LlavesRuedas" />
+          <ScalarProperty Name="Ecualizador" ColumnName="Ecualizador" />
+          <ScalarProperty Name="Espejos" ColumnName="Espejos" />
+          <ScalarProperty Name="TaponGasolina" ColumnName="TaponGasolina" />
+          <ScalarProperty Name="VidriosLate" ColumnName="VidriosLate" />
+          <ScalarProperty Name="Herramientas" ColumnName="Herramientas" />
+          <ScalarProperty Name="Planta" ColumnName="Planta" />
+          <ScalarProperty Name="TapaBocina" ColumnName="TapaBocina" />
+          <ScalarProperty Name="VidrioDel" ColumnName="VidrioDel" />
+          <ScalarProperty Name="Otros" ColumnName="Otros" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReporteDeCaja">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.ReporteDeCaja">
+        <MappingFragment StoreEntitySet="ReporteDeCaja">
+          <ScalarProperty Name="ReporteDeCajaID" ColumnName="ReporteDeCajaID" />
+          <ScalarProperty Name="Estacion" ColumnName="Estacion" />
+          <ScalarProperty Name="EstacionID" ColumnName="EstacionID" />
+          <ScalarProperty Name="Cajero" ColumnName="Cajero" />
+          <ScalarProperty Name="InicioCaja" ColumnName="InicioCaja" />
+          <ScalarProperty Name="MontoInicio" ColumnName="MontoInicio" />
+          <ScalarProperty Name="TotalFacturado" ColumnName="TotalFacturado" />
+          <ScalarProperty Name="RecibidoEnEfectivo" ColumnName="RecibidoEnEfectivo" />
+          <ScalarProperty Name="InformoOperador" ColumnName="InformoOperador" />
+          <ScalarProperty Name="FechaCierre" ColumnName="FechaCierre" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="UsuarioID" ColumnName="UsuarioID" />
+          <ScalarProperty Name="Diferencia" ColumnName="Diferencia" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RpInventario">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.RpInventario">
+        <MappingFragment StoreEntitySet="RpInventario">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="ValorInventario" ColumnName="ValorInventario" />
+          <ScalarProperty Name="ValorVenta" ColumnName="ValorVenta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sucursales">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Sucursales">
+        <MappingFragment StoreEntitySet="Sucursales">
+          <ScalarProperty Name="SucursarID" ColumnName="SucursarID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Representante" ColumnName="Representante" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Fichas" ColumnName="Fichas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TasaDias">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.TasaDias">
+        <MappingFragment StoreEntitySet="TasaDias">
+          <ScalarProperty Name="TasaDiaId" ColumnName="TasaDiaId" />
+          <ScalarProperty Name="MonedaId" ColumnName="MonedaId" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransAutomaticas">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.TransAutomaticas">
+        <MappingFragment StoreEntitySet="TransAutomaticas">
+          <ScalarProperty Name="TransAutomaticasId" ColumnName="TransAutomaticasId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="UsuarioID" ColumnName="UsuarioID" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+          <ScalarProperty Name="Facturacion" ColumnName="Facturacion" />
+          <ScalarProperty Name="Compras" ColumnName="Compras" />
+          <ScalarProperty Name="CuentasPorPagar" ColumnName="CuentasPorPagar" />
+          <ScalarProperty Name="CuentasPorCobrar" ColumnName="CuentasPorCobrar" />
+          <ScalarProperty Name="Usuarios1" ColumnName="Usuarios" />
+          <ScalarProperty Name="Inventario" ColumnName="Inventario" />
+          <ScalarProperty Name="Clientes" ColumnName="Clientes" />
+          <ScalarProperty Name="Cajas" ColumnName="Cajas" />
+          <ScalarProperty Name="Conduce" ColumnName="Conduce" />
+          <ScalarProperty Name="Cotizacion" ColumnName="Cotizacion" />
+          <ScalarProperty Name="Contabilidad" ColumnName="Contabilidad" />
+          <ScalarProperty Name="NotaDeCredito" ColumnName="NotaDeCredito" />
+          <ScalarProperty Name="NotaDeDebito" ColumnName="NotaDeDebito" />
+          <ScalarProperty Name="Configuracion" ColumnName="Configuracion" />
+          <ScalarProperty Name="Tasas" ColumnName="Tasas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vehiculos">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Vehiculos">
+        <MappingFragment StoreEntitySet="Vehiculos">
+          <ScalarProperty Name="VehiculoID" ColumnName="VehiculoID" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="Ficha" ColumnName="Ficha" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Nota" ColumnName="Nota" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vendedores">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Vendedores">
+        <MappingFragment StoreEntitySet="Vendedores">
+          <ScalarProperty Name="VendedorID" ColumnName="VendedorID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Comision" ColumnName="Comision" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Servicios">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.Servicios">
+        <MappingFragment StoreEntitySet="Servicios">
+          <ScalarProperty Name="ServicioID" ColumnName="ServicioID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Detalle" ColumnName="Detalle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_Cuentas">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.View_Cuentas">
+        <MappingFragment StoreEntitySet="View_Cuentas">
+          <ScalarProperty Name="NoCuenta" ColumnName="NoCuenta" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="TipoCta" ColumnName="TipoCta" />
+          <ScalarProperty Name="Clasificacion" ColumnName="Clasificacion" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Posicion" ColumnName="Posicion" />
+          <ScalarProperty Name="ClasificacionId" ColumnName="ClasificacionId" />
+          <ScalarProperty Name="Registro" ColumnName="Registro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_FacturaItemStatus">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.View_FacturaItemStatus">
+        <MappingFragment StoreEntitySet="View_FacturaItemStatus">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="FacturaID" ColumnName="FacturaID" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+          <ScalarProperty Name="CantAlmacen" ColumnName="CantAlmacen" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cotizacion" ColumnName="Cotizacion" />
+          <ScalarProperty Name="Expiraciones" ColumnName="Expiraciones" />
+          <ScalarProperty Name="Itbis" ColumnName="Itbis" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="Prepado" ColumnName="Prepado" />
+          <ScalarProperty Name="CategoriaID" ColumnName="CategoriaID" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ViewAsientos">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.ViewAsientos">
+        <MappingFragment StoreEntitySet="ViewAsientos">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Referencia" ColumnName="Referencia" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Comprobante" ColumnName="Comprobante" />
+          <ScalarProperty Name="TotalDebito" ColumnName="TotalDebito" />
+          <ScalarProperty Name="TotalCredito" ColumnName="TotalCredito" />
+          <ScalarProperty Name="Cuenta" ColumnName="Cuenta" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+          <ScalarProperty Name="Debito" ColumnName="Debito" />
+          <ScalarProperty Name="Credito" ColumnName="Credito" />
+          <ScalarProperty Name="Rnc" ColumnName="Rnc" />
+          <ScalarProperty Name="DescripcionCta" ColumnName="DescripcionCta" />
+          <ScalarProperty Name="Eliminado" ColumnName="Eliminado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ViewHistoricoEstados">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.ViewHistoricoEstados">
+        <MappingFragment StoreEntitySet="ViewHistoricoEstados">
+          <ScalarProperty Name="EstadoArticuloID" ColumnName="EstadoArticuloID" />
+          <ScalarProperty Name="FacturaID" ColumnName="FacturaID" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="EstadoId" ColumnName="EstadoId" />
+          <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwTasasDias">
+      <EntityTypeMapping TypeName="OpticaNewModelEntity.vwTasasDias">
+        <MappingFragment StoreEntitySet="vwTasasDias">
+          <ScalarProperty Name="TasaDiaId" ColumnName="TasaDiaId" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="MonedaId" ColumnName="MonedaId" />
+          <ScalarProperty Name="Simbolo" ColumnName="Simbolo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_AsientosAutCrearFactura" FunctionName="OpticaNewModelEntity.Store.pr_AsientosAutCrearFactura" />
+    <FunctionImportMapping FunctionImportName="sp_backup_automatic" FunctionName="OpticaNewModelEntity.Store.sp_backup_automatic" />
+    <FunctionImportMapping FunctionImportName="sp_GetMoneda" FunctionName="OpticaNewModelEntity.Store.sp_GetMoneda">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="OpticaNewModelEntity.sp_GetMoneda_Result">
+          <ScalarProperty Name="MonedaId" ColumnName="MonedaId" />
+          <ScalarProperty Name="Simbolo" ColumnName="Simbolo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UltimaDivisa" FunctionName="OpticaNewModelEntity.Store.sp_UltimaDivisa">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="OpticaNewModelEntity.sp_UltimaDivisa_Result">
+          <ScalarProperty Name="TasaDiaId" ColumnName="TasaDiaId" />
+          <ScalarProperty Name="MonedaId" ColumnName="MonedaId" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Eliminada" ColumnName="Eliminada" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

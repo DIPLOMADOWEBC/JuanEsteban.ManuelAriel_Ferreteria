@@ -1,0 +1,5 @@
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Entity\bin\Release\Model.Entity.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Entity\bin\Release\Model.Entity.pdb
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Entity\obj\Release\Model.Entity.csprojResolveAssemblyReference.cache
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Entity\obj\Release\Model.Entity.dll
+C:\Users\jgonzalez\Documents\PERSONAL\Punto de Venta WEB\FACTURA_ESTEBAN\Model.Entity\obj\Release\Model.Entity.pdb

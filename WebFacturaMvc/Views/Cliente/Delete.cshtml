@@ -1,0 +1,63 @@
+﻿@model WebFacturaMvc.Models.cliente
+@{
+    ViewBag.Title = Model.nombre + ' ' + Model.apPaterno;
+}
+
+@{
+    if (Session["IsLog"] == null)
+    {
+        Response.Redirect("~/Auth/Index");
+    }
+
+
+}
+<ol class="breadcrumb">
+    <li><a href="~/">Clientes</a></li>
+    <li class="active">@(Model.nombre + ' ' + Model.apPaterno)</li>
+
+</ol>
+<div class="well well-sm text-primary text-center">
+    @ViewBag.MensajeInicialEliminar
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">Informacion Personal</div>
+    <div class="panel-body">
+        <dl class="dl-horizontal">
+            <dt>Código</dt>
+            <dd>@Model.idCliente</dd>
+
+            <dt>Nombre</dt>
+            <dd>@Model.nombre</dd>
+
+            <dt>Apellidos</dt>
+            <dd>@(Model.apPaterno + ' ' + Model.apMaterno)</dd>
+
+            <dt>DNI</dt>
+            <dd>@Model.dni</dd>
+
+            <dt>Direccion</dt>
+            <dd>@Model.direccion</dd>
+
+            <dt>Teléfono</dt>
+            <dd>@Model.telefono</dd>
+        </dl>
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-primary" /> |
+            @Html.ActionLink("Regresar al Listado", "Index")
+        </div>
+    }
+</div>
+
+
+<div class="text-primary text-success text-center">
+    @ViewBag.MensajeExito;
+</div>
+<div class="text-primary text-danger text-center">
+    @ViewBag.MensajeError;
+</div>
